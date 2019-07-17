@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html class="fa-events-icons-ready">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="./includes/style.css" type="text/css">
+    <link rel="stylesheet" href="./includes/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./includes/font-awesome.min.css" type="text/css">
+    <style type="text/css">
+        .fancybox-skin{ 
+            left: 50%;
+            padding: 5px!important;
+            position: fixed!important;
+            top: 50%;
+            transform: translate(-50%, -50%); 
+            -moz-transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+        }
+    </style>
+    <!-- Scripts Starts Here -->
+
+    <script async="" src="./includes/analytics.js"></script>
+    <script type="text/javascript" async="" src="./includes/recaptcha__en.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var ROUTED_PATH = '';
+    </script>
+    <link rel="stylesheet" href="./includes/jquery-ui.css">
+    <link rel="stylesheet" href="./includes/colorbox.css">
+    <script src="./includes/jquery-1.10.2.js"></script>
+    <script src="./includes/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="./includes/jquery.fancybox.css">
+
+    <!-- Scripts Starts Here -->
+    <script type="text/javascript" src="./includes/jquery.fancybox.js"></script>
+    <script src="./includes/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="./includes/jquery.colorbox.js"></script>
+    <script type="text/javascript" src="./includes/validation.js"></script>
+    <script type="text/javascript">
+        $(function(){
+          $( 'form' ).tooltip({
+              position: { my: "right top", at: "right bottom" },
+              open: function(event, ui) {
+                $(ui.tooltip).siblings(".ui-tooltip").remove();
+              }
+        }).off("focusin,focusout,mouseover,mouseout");
+
+        $('body').on({mouseenter: function() {$(".ui-tooltip").hide();},mouseleave: function() {
+        $(".ui-tooltip").show();
+        }
+        },'#ui-datepicker-div');
+         
+          $("table.tbltab tr:odd").addClass("oddrow");
+          $("table.tbltab tr:even").addClass("evenrow");
+        });
+
+        $(function() {
+        $("#date" ).datepicker({
+                    dateFormat : 'yy-mm-dd',
+                    changeMonth : true,
+                    changeYear : true,
+                    yearRange: '-80y:c+nn',
+                    maxDate: '-1d',
+                    defaultDate: -11000
+                    
+            });
+        });
+        function confusepop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/help',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5
+                        });
+        }
+
+
+        function mpesapop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/mpesadetail',
+                            type: 'iframe',
+                            scolling: 'no',
+                             padding: 5,
+                           minHeight: 550
+                        });
+        }
+        function requirementpop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/requriementsdocs',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5,
+                            minHeight: 370
+                           
+                        });
+        }
+        function howtoapply(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/howtoapply',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5,
+                            minHeight: 700
+                        });
+        }
+
+        function openmulticourse(uid){
+             $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/multicourse/uid/'+uid,
+                                type: 'iframe',
+                                width: '700px',
+                    height:'400px',
+                                fitToView: false,
+                                autoSize: false
+
+                        });
+            }
+                
+                function openselected(val){
+          $.fancybox.open({
+                                href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1',
+                                type: 'iframe',
+                                width: '700px',
+                    height:'400px',
+                                fitToView: false,
+                                autoSize: false
+
+                        });
+
+        }
+    </script>
+    <title>Jomo Kenyatta University of Agriculture & Technology</title>
+    <style type="text/css">.fancybox-margin{margin-right:15px;}</style>
+    <link href="./includes/840a321d95.css" media="all" rel="stylesheet">
+</head>
+
+
+<body style="">
+    <!-- Header Starts Here-->
+    <link href="./includes/css" rel="stylesheet" type="text/css"> 
+    <div id="wrapper">
+        <!--header start-->
+        <div class="header-con">
+            <div id="header" class="container">
+                <!-- TopNav -->
+                <!--<div id="topnav">
+                    <div class="moduletable">
+                        <div class="custom">
+                            <p><span style="font-size: 8pt;"><a href="#">NAIROBI CITY CAMPUS</a></span> &nbsp;&nbsp;&nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">GABA CAMPUS</a></span>&nbsp; &nbsp; &nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">KISUMU CAMPUS</a></span> &nbsp; &nbsp;&nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">ALUMNI</a></span>&nbsp; &nbsp; &nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">AMECEA</a></span></p>
+                                        </div>
+                                </div>
+                        </div>--->
+                        <!-- Logo -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-7">
+                        <div id="logo">
+                            <a href="index.html">
+                                <img alt="Jomo Kenyatta University of Agriculture & Technology" src="./includes/logo-jkuat.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Search -->
+                    <div class="col-xs-12 col-sm-6 col-md-5">
+                        <div class="form_enquiry doyouneedhelp">
+                            <span class=" " style="color:#fff;cursor:pointer" onclick="confusepop()">Do you need help?</span> 
+                        </div>
+                        <div class="form_enquiry">
+                            <span class=" " style="color:#fff;cursor:pointer;" onclick="howtoapply()">How to Apply?</span> 
+                        </div>
+                    </div>
+                </div>
+                <div id="search">
+                    <div class="search"></div>
+                </div>
+            </div>
+        </div>
+        <!--header end-->
+        <!--navigation start-->
+        <div class="top-menucont">
+           <div class="container">
+                <div id="topmenu">
+                    <ul class="menu">
+                        <li class="item-101"><a href="index.html" target="_blank">Home</a></li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/" target="_blank">
+                                <img alt="Twitter" src="./includes/twitter.png">
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img alt="Facebook" src="./includes/fb.png">
+                            </a>
+                        </li>
+                        <li class="google-plus">  
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <img alt="Linkedin" src="./includes/linkedin.png">
+                            </a>
+                        </li>
+                        <li class="req-doc">  
+                            <a title="Requirements Docs" href="javascript:void(0)" disabled="disabled">
+                                <img alt="Linkedin" src="./includes/docs.png" onclick="requirementpop()">
+                            </a>
+                        </li>
+<!--<li class="mpesa-de">  <a title="mPesa Details" href="javascript:void(0)" disabled='disabled'>
+                                        <img alt="Linkedin" src="https://applications.ku.ac.ke/registration/public/images/m-pesa.png" onclick='mpesapop()'/></a></li> -->
+
+
+
+                                <!-- <li class="item-113 parent"><a href="#">Faculties</a></l_bi>
+<li class="item-102 current deeper parent">About 
+  Us
+                          </li>
+  <li class="item-124 parent"><a href="#">Library</a></li>
+  <li class="item-135 parent"><a href="#">Admissions</a></li>
+  <li class="item-141 parent"><a href="#">Departments</a></li>
+  <li class="item-155 parent"><a href="#">Facilities</a></li>
+  <li class="item-194"><a href="#">Information Portal</a></li>
+  <li class="item-194" style="padding-right: 0px;"><a href="#">Login</a></li>-->
+
+                    </ul>
+                    <div class="header-info">Current Session is MAY-2019</div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <!--navigation end-->
+
+        <div style="clear: both;"></div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-65414722-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <div class="mainContainer" style="width:100%; float:left; min-height:600px;">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="row applicationformarea">
+          <!--Form Strat-->
+          <div class="left-menu col-xs-12 col-sm-4 col-md-4">
+            <ul>
+            <!--    <li>  <div class="">
+                    <a  class='callbacks' href="/index.php/index/enquiry"><span class="step">Step</span> <span class="number">0</span>Enquiry</a>    
+                </div></li>-->
+                <li>
+                    <a href="index.html" >
+                        <span class="step">Step</span> 
+                        <span class="number">1</span>
+                        <span class="leftmenutxt">Personal Data</span>  
+                    </a>
+                </li>
+                <li>
+                    <a href="programmes.html" class="active">
+                        <span class="step">Step</span> 
+                        <span class="number">2</span>
+                        <span class="leftmenutxt">Programme</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="academic-profile.html">
+                        <span class="step">Step</span> 
+                        <span class="number">3</span>
+                        <span class="leftmenutxt">Academic Profile</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="additional-data.html">
+                        <span class="step">Step</span> 
+                        <span class="number">4</span>
+                        <span class="leftmenutxt">Additional Data</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="declaration.html">
+                        <span class="step">Step</span> 
+                        <span class="number">5</span>
+                        <span class="leftmenutxt">Declaration and Verification</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="payment.html">
+                        <span class="step">Step</span> 
+                        <span class="number">6</span>
+                        <span class="leftmenutxt">Payment</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html#" onclick="">
+                        <span class="step">Step</span> 
+                        <span class="number">7</span>
+                        <span class="leftmenutxt">Finish</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://applications.ku.ac.ke/registration/public/index.php/index/downloadpdfform">
+                        <span class="step">Step</span> 
+                        <span class="number">8</span>
+                        <span>Download Form</span>
+                    </a>
+                </li>
+            </ul>
+        </div> <!--left menu end-->
+        <div class="Section col-xs-12 col-sm-8 col-md-8 pull-right">
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    makeUpper();
+                    $('#subjectcom').hide();
+                    $('.subjectcom').hide();
+                    $('#subjectcom2').hide();
+                    $('.subjectcom2').hide();
+                    $('.td-2nd').hide();
+                    $('.td-ist').show();
+
+                    $('#btnAdd').click(function() {
+                        var s = $('#count').val();
+                        $("#specify_programme" + s + "").bind("change",
+                                function() {
+
+                                });
+                        $("#specify_programme3").bind("change",
+                                function() {
+
+                                });
+                        so = '#Programmeshow' + s;
+                        data = '#p' + s;
+
+                        getp2 = $(data).html();
+
+                        $(so).html(getp2);
+                        $(so).show();
+
+
+                        $('#count').val(3);
+                        if (s == 3) {
+                                $('#btnAdd').hide();
+                        }
+                    });
+
+                    $("#specify_programme1").change(function() {
+                        $('#subjectcom').hide();
+                        $('.subjectcom').hide();
+                        var prog1 = $("#programme1").val();
+                        var studymode = $(this).val();
+                        var typeofprogramme = $("#type_of_programme").val();
+                        var feeid = '#fee-p1';
+                        var progval = $("#specify_programme1").val();
+                        
+                        $.ajax({
+                                type: 'POST',
+                                dataType: "json",
+                                url: ROUTED_PATH + '/index/typeofprogram/modeid/' + progval,
+                                beforeSend: function() {
+
+                                },
+                                success: function(responseData, status, XMLHttpRequest) {
+                                        $('select[name="type_of_programme"] option').remove();
+					//$("#fee-p1 .fee-containder").hide();
+                                        for (var i = 0; i < responseData.results.length; i++) {
+                                                $('select[name="type_of_programme"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].type_of_program_id)
+                                                        .text(responseData.results[i].type_of_program_name));
+                                        }
+                                        makeUpper();
+                                }
+                        });
+                        $('select[name="programme1"] option:not(:first)').remove();
+                        $('select[name="programme2"] option:not(:first)').remove();
+//                        
+                    });
+
+                     $("#type_of_programme").change(function(){
+                        var prog1 = $("#programme1").val();
+                        var studymode = $("#specify_programme1").val();
+                        var feeid = '#fee-p1';
+                        $('#subjectcom').hide();
+                        $('.subjectcom').hide();
+                        var typeofprogramme = $(this).val();
+                        
+                        $('select[name="campus"] option').remove();
+                        $("#campus").append('<option value="">Select campus</option>');
+                        //$("#fee-p1 .fee-containder").hide();
+                        $("#fee-p1").html('');
+                        $("#fee-p1").html('');
+                        $(".elig-cont-after").html('');
+                    
+//                    $.ajax({
+//                                type: 'POST',
+//                                dataType: "json",
+//                                url: ROUTED_PATH + '/index/selectcampus/modeid/' + studymode + '/typeofprogramme/' + typeofprogramme,
+//                                beforeSend: function() {
+//
+//                                },
+//                                success: function(responseData, status, XMLHttpRequest) {
+//                                        $('select[name="campus"] option').remove();
+//					$("#fee-p1 .fee-containder").hide();
+//                                        for (var i = 0; i < responseData.results.length; i++) {
+//                                                $('select[name="campus"]')
+//                                                        .append($("<option></option>")
+//                                                        .attr("value", responseData.results[i].campus_code)
+//                                                        .text(responseData.results[i].campus_name));
+//                                        }
+//                                }
+//                        });
+                        $.ajax({
+                                    type: 'POST',
+                                    dataType: "json",
+                                    url: ROUTED_PATH + '/index/selectprogramme/modeid/' + studymode + '/typeofprogramme/' +typeofprogramme,
+                                    beforeSend: function() {
+
+                                    },
+                                    success: function(responseData, status, XMLHttpRequest) {
+
+					//$("#fee-p1 .fee-containder").hide();
+					//$("#subjectcom").remove();
+                                        $('select[name="programme1"] option').remove();
+                                        //  alert(responseData.results.length);
+                                        for (var i = 0; i < responseData.results.length; i++) {
+                                                $('select[name="programme1"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].id)
+                                                        .text(responseData.results[i].name));
+                                                // alert(responseData.results[i].name)
+                                        }
+                                       
+                                        //$("#fee-p1 .fee-containder").hide();
+					//$("#subjectcom").remove();
+                                        $('select[name="programme2"] option').remove();
+                                        //  alert(responseData.results.length);
+                                        for (var i = 0; i < responseData.results.length; i++) {
+                                                $('select[name="programme2"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].id)
+                                                        .text(responseData.results[i].name));
+                                                // alert(responseData.results[i].name)
+                                        }
+					makeUpper();
+                                }
+                        });
+                });
+                
+                $("#programme1").change(function(){
+                    var prog1 = $("#programme1").val();
+                    var studymode = $("#specify_programme1").val();
+                    var typeofprogramme = $("#type_of_programme").val();;
+                    var prog1text = $("#programme1 option:selected").text();
+                    $('.elig-cont-after').html('');
+                    if(prog1 == ''){
+                        $('select[name="campus"] option').remove();
+                        $("#campus").append('<option value="">Select campus</option>');
+                        $("#fee-p1 ").html('');
+                        $(".elig-cont-after").html('');
+                    }
+                    if(prog1 != ''){
+                    $.ajax({
+                                type: 'POST',
+                                dataType: "json",
+                                url: ROUTED_PATH + '/index/selectcampus/modeid/' + studymode + '/typeofprogramme/' + typeofprogramme + '/programid/' + prog1,
+                                beforeSend: function() {
+
+                                        },
+                                        success: function (responseData, status, XMLHttpRequest) {
+                                            $('select[name="campus"] option').remove();
+                                            //$("#fee-p1 .fee-containder").hide();
+                                            for (var i = 0; i < responseData.results.length; i++) {
+                                                $('select[name="campus"]')
+                                                        .append($("<option></option>")
+                                                                .attr("value", responseData.results[i].campus_code)
+                                                                .text(responseData.results[i].campus_name));
+                                            }
+                                            makeUpper();
+                                        }
+                                    });
+                                    $.ajax({
+                                        type: 'POST',
+                                        dataType: "html",
+                                        url: ROUTED_PATH + '/index/ajaxdetail/progid/' + prog1,
+                                        beforeSend: function () {
+                                            loadingimg = "<img src='" + BASE_URL + '/images/5.gif' + "'style='margin-left:17px'>";
+                                            $(feeid).html(loadingimg);
+                                        },
+                                        success: function (responseData, status, XMLHttpRequest) {
+                                            $("#fee-p1").html(responseData);
+                                            $(feeid).html(responseData);
+
+                                        }
+                                    });
+                                     $("#fee-p1").css("margin-left", "-24px")
+                                }
+                    $.ajax({
+                                type: 'POST',
+                                dataType: "json",
+                                url: ROUTED_PATH + '/index/selectprogramme/modeid/' + studymode + '/typeofprogramme/' +typeofprogramme + '/program/' +prog1text,
+                                beforeSend: function() {
+
+                                },
+                                success: function(responseData, status, XMLHttpRequest) {
+					//$("#fee-p1 .fee-containder").hide();
+					 $('select[name="subjectcom"] option').remove();
+                                         if(responseData.results.length <= 2){
+                                             $('#subjectcom').hide();
+                                             $('.subjectcom').hide();
+                                         }else{
+                                             $('#subjectcom').show();
+                                             $('.subjectcom').show();
+                                         }
+                                        for (var i = 0; i < responseData.results.length; i++) {
+                                             if(responseData.results[i].subject_compbination == '')continue;
+                                                $('select[name="subjectcom"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].id)
+                                                        .text(responseData.results[i].subject_compbination));
+                                        }
+                                        makeUpper();
+                                }
+                        });
+                }); 
+                
+                $("#programme2").change(function(){
+                    var prog1 = $("#programme2").val();
+                    var studymode = $("#specify_programme1").val();
+                    var typeofprogramme = $("#type_of_programme").val();;
+                    var prog1text = $("#programme2 option:selected").text();
+                    $(".elig-cont-after1").html('');
+                    $("#fee-p2").html('');
+                    
+                     if(prog1 != ''){
+                                    $.ajax({
+                                        type: 'POST',
+                                        dataType: "html",
+                                        url: ROUTED_PATH + '/index/ajaxdetail/progid/' + prog1 +'/secp/1',
+                                        beforeSend: function () {
+                                            loadingimg = "<img src='" + BASE_URL + '/images/5.gif' + "'style='margin-left:17px'>";
+                                            $(feeid).html(loadingimg);
+                                        },
+                                        success: function (responseData, status, XMLHttpRequest) {
+                                            $("#fee-p2").html(responseData);
+                                        }
+                                    });
+                                    $("#fee-p2").css("margin-top", "-32px")
+                                    $("#fee-p2").css("margin-left", "-24px")
+                                     
+                                }            
+                    $.ajax({
+                                type: 'POST',
+                                dataType: "json",
+                                url: ROUTED_PATH + '/index/selectprogramme/modeid/' + studymode + '/typeofprogramme/' +typeofprogramme + '/program/' +prog1text,
+                                beforeSend: function() {
+
+                                },
+                                success: function(responseData, status, XMLHttpRequest) {
+					//$("#fee-p1 .fee-containder").hide();
+					 $('select[name="subjectcom2"] option').remove();
+                                         if(responseData.results.length <= 2){
+                                             $('#subjectcom2').hide();
+                                             $('.subjectcom2').hide();
+                                             $('.td-2nd').hide();
+                                             $('.td-ist').show();
+                                         }else{
+                                             $('#subjectcom2').show();
+                                             $('.subjectcom2').show();
+                                             $('.td-2nd').show();
+                                             $('.td-ist').hide();
+                                         }
+                                        for (var i = 0; i < responseData.results.length; i++) {
+                                                if(responseData.results[i].subject_compbination == '')continue;
+                                                $('select[name="subjectcom2"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].id)
+                                                        .text(responseData.results[i].subject_compbination));
+                                        }
+                                        makeUpper();
+                                }
+                        });
+                }); 
+                
+                $("#subjectcom").change(function(){
+                    var prog1 = $("#programme1").val();
+                    var studymode = $("#specify_programme1").val();
+                    var typeofprogramme = $(this).val();
+                    var prog1text = $("#programme1 option:selected").text();
+                    var subjectcomid = $("#subjectcom").val();
+                    if(subjectcomid == ''){
+                        $('select[name="campus"] option').remove();
+                        $("#campus").append('<option value="">Select campus</option>');
+                        $("#fee-p1").html('');
+                        $(".elig-cont-after").html('');
+                    }
+                    if(subjectcomid != ''){
+                        
+                    $.ajax({
+                                type: 'POST',
+                                dataType: "json",
+                                url: ROUTED_PATH + '/index/selectcampus/modeid/' + studymode + '/typeofprogramme/' + typeofprogramme + '/programid/' + subjectcomid,
+                                        beforeSend: function () {
+
+                                        },
+                                        success: function (responseData, status, XMLHttpRequest) {
+                                            $('select[name="campus"] option').remove();
+                                            //$("#fee-p1 .fee-containder").hide();
+                                            for (var i = 0; i < responseData.results.length; i++) {
+                                                $('select[name="campus"]')
+                                                        .append($("<option></option>")
+                                                                .attr("value", responseData.results[i].campus_code)
+                                                                .text(responseData.results[i].campus_name));
+                                            }
+                                            makeUpper();
+                                        }
+                                        
+                                    });
+
+                                    $.ajax({
+                                        type: 'POST',
+                                        dataType: "html",
+                                        url: ROUTED_PATH + '/index/ajaxdetail/progid/' + subjectcomid,
+                                        beforeSend: function () {
+                                            loadingimg = "<img src='" + BASE_URL + '/images/5.gif' + "'style='margin-left:17px'>";
+                                            //alert(loadingimg);
+                                            $(feeid).html(loadingimg);
+                                        },
+                                        success: function (responseData, status, XMLHttpRequest) {
+                                            $("#fee-p1 ").html(responseData);
+                                            $(feeid).html(responseData);
+
+                                        }
+                                    });
+                                     $("#fee-p1").css("margin-left", "-24px")
+                                }
+                    
+                }); 
+
+	 var select = $('select#campus');
+    select.change(function () {
+        select.not(this).val(this.value);
+    });
+        });
+        
+        function makeUpper(){
+            $("option").each(function() {
+                $(this).text($(this).text().toUpperCase());
+          });
+        }
+  
+        function removeprofileimage(imageid) {
+                $.post(ROUTED_PATH + "/index/removeprogrammeimage",
+                        {
+                                id: imageid
+                        },
+                function(data, status) {
+                        $('#imgprogramme').remove();
+
+                });
+
+
+        }
+        function removecource(id) {
+                s = '#Programmeshow' + id;
+                $(s).html('');
+                $('#btnAdd').show();
+                $('#count').val(id);
+                if ($('#Programmeshow2').html() == '' && $('#Programmeshow3').html() == '')
+                        $('#count').val(2);
+                if ($('#programmeid').val() != '') {
+                        $.post(ROUTED_PATH + "/index/removeprogrammecource",
+                                {
+                                        id: $('#programmeid').val(), courseid: id
+                                },
+                        function(data, status) {
+                        });
+                }
+
+        }
+        function selctSpecifyProgramme(obj) {
+                var progrm = $("#type_of_programme").val();
+                var selectid = obj.id;
+                if (selectid == 'programme2') {
+                        $("#fee-p2").css("margin-left", "0px")
+                }
+                if (selectid == 'programme3') {
+                        $("#fee-p3").css("margin-left", "-21px")
+                }
+                //  alert(selectid)
+                var specifyid;
+                if (selectid == 'programme1')
+                        specifyid = 'specify_programme1';
+                if (selectid == 'programme2')
+                        specifyid = 'specify_programme2';
+                if (selectid == 'programme3')
+                        specifyid = 'specify_programme3';
+                if (selectid == 'programme1') {
+                        feeid = '#fee-p1'
+                }
+                else if (selectid == 'programme2') {
+                        feeid = '#fee-p2'
+                } else if (selectid == 'programme3') {
+                        feeid = '#fee-p3'
+                }
+//                courseid = obj.value;
+//                if( courseid != ''){
+//                    // call ajax
+//                    $.ajax({
+//                            type: 'POST',
+//                            dataType: "html",
+//                            url: ROUTED_PATH + '/index/ajaxdetail/progid/' + courseid+'/subjectcombname/'+obj.id + '/program/' + progrm,
+//                            beforeSend: function() {
+//                                    loadingimg="<img src='"+ BASE_URL+'/images/5.gif'+"'style='margin-left:17px'>";
+//                                    //alert(loadingimg);
+//                                    $(feeid).html(loadingimg);
+//                            },
+//                            success: function(responseData, status, XMLHttpRequest) {
+//                                    $(feeid).html('');
+//                                    $(feeid).html(responseData);
+//
+//                            }
+//                    });
+//                }
+                
+                //$(feeid).html("<a href='#'onclick='load("+courseid+")'>Eligibility Criteria</a>");
+                //alert(selectid);
+
+        }
+        function studymode(obj) {
+
+
+        }
+        function getProgramme(obj) {
+
+
+                studymode = obj.value;
+                $.ajax({
+                        type: 'POST',
+                        dataType: "json",
+                        url: ROUTED_PATH + '/index/selectprogramme/modeid/' + studymode,
+                        beforeSend: function() {
+
+                        },
+                        success: function(responseData, status, XMLHttpRequest) {
+                                if (obj.id == "specify_programme2") {
+                                        $('select[name="programme2"] option').remove();
+                                } else {
+                                        $('select[name="programme3"] option').remove();
+                                }
+
+                                //  alert(responseData.results.length);
+                                for (var i = 0; i < responseData.results.length; i++) {
+
+                                        if (obj.id == "specify_programme2") {
+                                                $('select[name="programme2"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].id)
+                                                        .text(responseData.results[i].name));
+                                        } else {
+                                                $('select[name="programme3"]')
+                                                        .append($("<option></option>")
+                                                        .attr("value", responseData.results[i].id)
+                                                        .text(responseData.results[i].name));
+                                        }
+                                        // alert(responseData.results[i].name)
+                                }
+
+                                // JSON formatted data structure
+                                // bind after creation option 
+                                $("#programme1").change(function() {
+                                        // $("#programme1").after("asdkfjksdjf")
+                                        // alert("aksdjfksjdf")
+                                })
+                        }
+                });
+        }
+        function opencourse(val, pt) {
+                $.fancybox.open({
+                        href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1/program/' +pt,
+                        type: 'iframe',
+                        width: '700px',
+			height:'400px',
+                        fitToView: false,
+                        autoSize: false
+
+                });
+        }
+</script>
+<style>
+        hr{
+                border-bottom-color: #808080;
+                border-left-color-ltr-source: physical;
+                border-left-color-rtl-source: physical;
+                border-left-color-value: #808080;
+                border-right-color-ltr-source: physical;
+                border-right-color-rtl-source: physical;
+                border-right-color-value: #808080;
+                border-top-color: #808080;
+        }
+        .td-2nd{display: none;}
+</style>
+<div class="form-container clearfix responsive-form-container">
+    <div class="right-side">
+        <div id="errormessage" class="errors"></div>
+        <div class="heading-main">
+            <h2>Programmes eg. B.Com, LL.B, B.Ed</h2>
+        </div>
+        <form name="programme" method="post" action="academic-profile.html" enctype="multipart/form-data" class="formpadding">
+            <div id="errorMsg" class="errors"></div>
+            <div class="bootstraptable">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 formrowpadding modeofstudy">
+                        <label class="heading">Mode of Study</label><br>
+                        <select name="specify_programme1" id="specify_programme1" class="programme-select" title="Please select mode of education" onchange="studymode(this)">
+                            <option value="3">DIGITAL SCHOOL</option>
+                            <option value="4">IBP</option>
+                            <option value="6">PART TIME (WEEKEND/EVENING CLASSES)</option>
+                            <option value="1">REGULAR</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 formrowpadding typeofprogramme">
+                        <label class="heading">Type of Programme*</label><br>
+                        <select name="type_of_programme" id="type_of_programme" class="programme-select" title="Please select type of programme">
+                            <option value="0">SELECT TYPE OF PROGRAMME</option>
+                            <option value="1">DIPLOMA</option>
+                            <option value="2">UNDERGRADUATE</option>
+                            <option value="3">POST GRADUATE</option>
+                            <option value="4">POST GRADUATE DIPLOMA</option>
+                            <option value="5">CERTIFICATE</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 formrowpadding choosefirstprograme">
+                        <label class="heading"> Choose First Programme* </label><br>
+                        <select name="programme1" id="programme1" class="" title="Please choose first programme" onchange="selctSpecifyProgramme(this)">
+                            <!-- PHP Code for selecting all the available programmes-->
+                        </select>
+                    </div>
+                </div>
+                <div class="row firstandsecondsubject">
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding subjectcom" style="display: none;">
+                        <label style="white-space: nowrap; display: none;" class="heading subjectcom"> Choose 1st Subject Combination* </label><br>
+                        <select name="subjectcom" id="subjectcom" class="" title="Please choose first subject combination" style="display: none;">
+                            <!-- PHP Code for selecting all the available programmes-->
+                        </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding choosesecondprgrm">
+                        <label class="heading">Choose Second Programme </label><br>
+                        <select name="programme2" id="programme2" class="" title="Please choose first programme" onchange="selctSpecifyProgramme(this)">
+                            <!-- PHP Code for selecting all the available programmes-->
+                        </select>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding subjectcom2" style="display: none;">
+                        <label style="white-space: nowrap; display: none;" class="heading subjectcom2"> Choose 2nd Subject Combination* </label><br>
+                        <select name="subjectcom2" id="subjectcom2" class="" title="Please choose second subject combination" style="display: none;">
+                            <!-- PHP Code for selecting all the available programmes-->
+                        </select>
+                    </div> 
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding">
+                        <label class="heading"> Choose Campus* </label><br>
+                        <select name="campus" id="campus" class="" title="Please select campus">
+                            <!-- PHP Code for selecting all the available programmes-->
+                        </select>
+                    </div>
+                </div>
+                <div id="fee-p1" style="margin-top:-18px;"></div>
+                <div id="fee-p2" style="margin-left: 0px;"></div>
+                <div style="width:100%; border-top:1px solid #d4d4d4; padding-top:10px; padding-bottom:0px; float:left; height:5px;">&nbsp;</div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 formrowpadding indicate">
+                        <label class="heading">Enter registration Number (if any) for a course previously attended at Kenyatta University</label>
+                        <input type="text" maxlength="20" name="reg_number" style="width:100% !important" title="Enter Enrollment Number (if any) course previously attended" id="enrollment_id" class="programme-small-input" value="" size="225">
+                    </div>
+                </div>
+                <div style="width:100%; border-top:1px solid #d4d4d4; padding-top:10px; height:5px; padding-bottom:0px; float:left">&nbsp;</div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 formrowpadding check-space check-space-font">
+                        <label class="heading">Who Will Sponsor Your Education at KU?*</label>
+                        <input type="radio" id="sponsor_at_self" title="Please select at least one sponsor" name="sponser_type" value="self">
+                        <label for="sponsor_at_self"> Self</label> 
+                        <input type="radio" id="parents" title="Please select at least one sponsor" name="sponser_type" value="parents">
+                        <label for="Parents"> Parents</label>
+                        <input type="radio" id="self_and_parents" title="Please select at least one sponsor" name="sponser_type" value="self_and_parents">
+                        <label for="self_and_parents"> Self and Parents</label>
+                        <input type="radio" id="Other" title="Please select at least one sponsor" name="sponser_type" value="other">
+                        <label for="other"> Other</label>
+                    </div>
+                </div>
+            </div> <!-- BootstrapTable Div End -->
+        
+            <div id="sponsorinfo1" class="bootstraptable" style="display:none">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding">
+                        <label class="heading">Sponsor's name*</label>
+                        <input type="text" maxlength="30" title="Please enter the sponsor name" name="sponsor_name" id="sponsor_name" value="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding">
+                        <label class="heading">Sponsor's address*</label><br>
+                        <textarea name="sponsor_address" maxlength="300" class="address2" id="sponsor_address" title="Please enter the sponsor address" cols="33" rows="2"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div id="sponsorinfo2" style="display:none">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding sponsertelephone telephone-element">
+                        <label class="heading">Sponsor's Telephone*</label><br>
+                        <select name="sponsor_countrycode" id="sponsor_countrycode" class="countrycombo" title="Please select the sponsor country code">
+                            <option value="114">(+254) KENYA</option>
+                            <option value="226">(+255) TANZANIA</option>
+                            <option value="228">(+256) UGANDA</option>
+                            <option value="25">(+257) BURUNDI</option>
+                            <option value="191">(+250) RWANDA</option>
+                            <option value="41">(+236) CENTRAL AFRICAN REPUBLIC</option>
+                            <option value="56">(+253) DJIBOUTI</option>
+                            <option value="65">(+291) ERITREA</option>
+                            <option value="67">(+251) ETHIOPIA</option>
+                            <option value="40">(+243) DEMOCRATIC REPUBLIC OF THE CONGO</option>
+                            <option value="205">(+252) SOMALIA</option>
+                            <option value="247">(+211) SOUTH SUDAN</option>
+                            <option value="195">(+249) SUDAN</option>
+                            <option value="3">(+93) AFGHANISTAN</option>
+                            <option value="6">(+355) ALBANIA</option>
+                            <option value="60">(+213) ALGERIA</option>
+                            <option value="12">(+1684) AMERICAN SAMOA</option>
+                            <option value="1">(+376) ANDORRA</option>
+                            <option value="9">(+244) ANGOLA</option>
+                            <option value="5">(+1264) ANGUILLA</option>
+                            <option value="4">(+1268) ANTIGUA AND BARBUDA</option>
+                            <option value="11">(+54) ARGENTINA</option>
+                            <option value="7">(+374) ARMENIA</option>
+                            <option value="15">(+297) ARUBA</option>
+                            <option value="14">(+61) AUSTRALIA</option>
+                            <option value="13">(+43) AUSTRIA</option>
+                            <option value="17">(+994) AZERBAIJAN</option>
+                            <option value="32">(+1242) BAHAMAS</option>
+                            <option value="24">(+973) BAHRAIN</option>
+                            <option value="20">(+880) BANGLADESH</option>
+                            <option value="19">(+1246) BARBADOS</option>
+                            <option value="36">(+375) BELARUS</option>
+                            <option value="21">(+32) BELGIUM</option>
+                            <option value="37">(+501) BELIZE</option>
+                            <option value="26">(+229) BENIN</option>
+                            <option value="28">(+1441) BERMUDA</option>
+                            <option value="33">(+975) BHUTAN</option>
+                            <option value="30">(+591) BOLIVIA</option>
+                            <option value="18">(+387) BOSNIA AND HERZEGOVINA</option>
+                            <option value="35">(+267) BOTSWANA</option>
+                            <option value="31">(+55) BRAZIL</option>
+                            <option value="105">(+246) BRITISH INDIAN OCEAN TERRITORY</option>
+                            <option value="29">(+673) BRUNEI DARUSSALAM</option>
+                            <option value="23">(+359) BULGARIA</option>
+                            <option value="22">(+226) BURKINA FASO</option>
+                            <option value="116">(+855) CAMBODIA</option>
+                            <option value="46">(+237) CAMEROON</option>
+                            <option value="38">(+1) CANADA</option>
+                            <option value="51">(+238) CAPE VERDE</option>
+                            <option value="123">(+1345) CAYMAN ISLANDS</option>
+                            <option value="212">(+235) CHAD</option>
+                            <option value="45">(+56) CHILE</option>
+                            <option value="47">(+86) CHINA</option>
+                            <option value="39">(+672) COCOS (KEELING) ISLANDS</option>
+                            <option value="48">(+57) COLOMBIA</option>
+                            <option value="118">(+269) COMOROS</option>
+                            <option value="44">(+682) COOK ISLANDS</option>
+                            <option value="49">(+506) COSTA RICA</option>
+                            <option value="43">(+225) CÔTE D'IVOIRE</option>
+                            <option value="96">(+385) CROATIA</option>
+                            <option value="50">(+53) CUBA</option>
+                            <option value="53">(+357) CYPRUS</option>
+                            <option value="54">(+420) CZECH REPUBLIC</option>
+                            <option value="57">(+45) DENMARK</option>
+                            <option value="58">(+1767) DOMINICA</option>
+                            <option value="59">(+1809) DOMINICAN REPUBLIC</option>
+                            <option value="61">(+593) ECUADOR</option>
+                            <option value="63">(+20) EGYPT</option>
+                            <option value="208">(+503) EL SALVADOR</option>
+                            <option value="86">(+240) EQUATORIAL GUINEA</option>
+                            <option value="62">(+372) ESTONIA</option>
+                            <option value="70">(+500) FALKLAND ISLANDS (MALVINAS)</option>
+                            <option value="72">(+298) FAROE ISLANDS</option>
+                            <option value="69">(+679) FIJI</option>
+                            <option value="68">(+358) FINLAND</option>
+                            <option value="73">(+33) FRANCE</option>
+                            <option value="78">(+594) FRENCH GUIANA</option>
+                            <option value="174">(+689) FRENCH POLYNESIA</option>
+                            <option value="74">(+241) GABON</option>
+                            <option value="83">(+220) GAMBIA</option>
+                            <option value="77">(+995) GEORGIA</option>
+                            <option value="55">(+49) GERMANY</option>
+                            <option value="80">(+233) GHANA</option>
+                            <option value="81">(+350) GIBRALTAR</option>
+                            <option value="87">(+30) GREECE</option>
+                            <option value="82">(+299) GREENLAND</option>
+                            <option value="76">(+1473) GRENADA</option>
+                            <option value="85">(+590) GUADELOUPE</option>
+                            <option value="90">(+1671) GUAM</option>
+                            <option value="89">(+502) GUATEMALA</option>
+                            <option value="84">(+224) GUINEA</option>
+                            <option value="91">(+245) GUINEA-BISSAU</option>
+                            <option value="92">(+592) GUYANA</option>
+                            <option value="97">(+509) HAITI</option>
+                            <option value="233">(+39) HOLY SEE (VATICAN CITY STATE)</option>
+                            <option value="95">(+504) HONDURAS</option>
+                            <option value="93">(+852) HONG KONG</option>
+                            <option value="98">(+36) HUNGARY</option>
+                            <option value="108">(+354) ICELAND</option>
+                            <option value="104">(+91) INDIA</option>
+                            <option value="100">(+62) INDONESIA</option>
+                            <option value="107">(+98) IRAN, ISLAMIC REPUBLIC OF</option>
+                            <option value="106">(+964) IRAQ</option>
+                            <option value="101">(+353) IRELAND</option>
+                            <option value="102">(+972) ISRAEL</option>
+                            <option value="111">(+1876) JAMAICA</option>
+                            <option value="113">(+81) JAPAN</option>
+                            <option value="112">(+962) JORDAN</option>
+                            <option value="124">(+7) KAZAKHSTAN</option>
+                            <option value="117">(+686) KIRIBATI</option>
+                            <option value="120">(+850) KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option>
+                            <option value="121">(+82) KOREA, REPUBLIC OF</option>
+                            <option value="122">(+965) KUWAIT</option>
+                            <option value="115">(+996) KYRGYZSTAN</option>
+                            <option value="125">(+856) LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+                            <option value="134">(+371) LATVIA</option>
+                            <option value="126">(+961) LEBANON</option>
+                            <option value="131">(+266) LESOTHO</option>
+                            <option value="130">(+231) LIBERIA</option>
+                            <option value="135">(+218) LIBYAN ARAB JAMAHIRIYA</option>
+                            <option value="128">(+423) LIECHTENSTEIN</option>
+                            <option value="132">(+370) LITHUANIA</option>
+                            <option value="133">(+352) LUXEMBOURG</option>
+                            <option value="147">(+853) MACAO</option>
+                            <option value="143">(+389) MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
+                            <option value="141">(+261) MADAGASCAR</option>
+                            <option value="155">(+265) MALAWI</option>
+                            <option value="157">(+60) MALAYSIA</option>
+                            <option value="154">(+960) MALDIVES</option>
+                            <option value="144">(+223) MALI</option>
+                            <option value="152">(+356) MALTA</option>
+                            <option value="142">(+692) MARSHALL ISLANDS</option>
+                            <option value="149">(+596) MARTINIQUE</option>
+                            <option value="150">(+222) MAURITANIA</option>
+                            <option value="153">(+230) MAURITIUS</option>
+                            <option value="156">(+52) MEXICO</option>
+                            <option value="71">(+691) MICRONESIA, FEDERATED STATES OF</option>
+                            <option value="138">(+373) MOLDOVA, REPUBLIC OF</option>
+                            <option value="137">(+377) MONACO</option>
+                            <option value="146">(+976) MONGOLIA</option>
+                            <option value="151">(+1664) MONTSERRAT</option>
+                            <option value="136">(+212) MOROCCO</option>
+                            <option value="158">(+258) MOZAMBIQUE</option>
+                            <option value="145">(+95) MYANMAR</option>
+                            <option value="159">(+264) NAMIBIA</option>
+                            <option value="168">(+674) NAURU</option>
+                            <option value="167">(+977) NEPAL</option>
+                            <option value="165">(+31) NETHERLANDS</option>
+                            <option value="8">(+599) NETHERLANDS ANTILLES</option>
+                            <option value="160">(+687) NEW CALEDONIA</option>
+                            <option value="170">(+64) NEW ZEALAND</option>
+                            <option value="164">(+505) NICARAGUA</option>
+                            <option value="161">(+227) NIGER</option>
+                            <option value="163">(+234) NIGERIA</option>
+                            <option value="169">(+683) NIUE</option>
+                            <option value="148">(+1670) NORTHERN MARIANA ISLANDS</option>
+                            <option value="166">(+47) NORWAY</option>
+                            <option value="171">(+968) OMAN</option>
+                            <option value="177">(+92) PAKISTAN</option>
+                            <option value="184">(+680) PALAU</option>
+                            <option value="182">(+970) PALESTINIAN TERRITORY, OCCUPIED</option>
+                            <option value="172">(+507) PANAMA</option>
+                            <option value="175">(+675) PAPUA NEW GUINEA</option>
+                            <option value="185">(+595) PARAGUAY</option>
+                            <option value="173">(+51) PERU</option>
+                            <option value="176">(+63) PHILIPPINES</option>
+                            <option value="178">(+48) POLAND</option>
+                            <option value="183">(+351) PORTUGAL</option>
+                            <option value="181">(+1787) PUERTO RICO</option>
+                            <option value="186">(+974) QATAR</option>
+                            <option value="187">(+262) RÉUNION</option>
+                            <option value="188">(+40) ROMANIA</option>
+                            <option value="190">(+70) RUSSIAN FEDERATION</option>
+                            <option value="198">(+290) SAINT HELENA</option>
+                            <option value="119">(+1869) SAINT KITTS AND NEVIS</option>
+                            <option value="127">(+1758) SAINT LUCIA</option>
+                            <option value="179">(+508) SAINT PIERRE AND MIQUELON</option>
+                            <option value="234">(+1784) SAINT VINCENT AND THE GRENADINES</option>
+                            <option value="241">(+684) SAMOA</option>
+                            <option value="203">(+378) SAN MARINO</option>
+                            <option value="207">(+239) SAO TOME AND PRINCIPE</option>
+                            <option value="192">(+966) SAUDI ARABIA</option>
+                            <option value="204">(+221) SENEGAL</option>
+                            <option value="194">(+248) SEYCHELLES</option>
+                            <option value="202">(+232) SIERRA LEONE</option>
+                            <option value="197">(+65) SINGAPORE</option>
+                            <option value="201">(+421) SLOVAKIA</option>
+                            <option value="199">(+386) SLOVENIA</option>
+                            <option value="193">(+677) SOLOMON ISLANDS</option>
+                            <option value="244">(+27) SOUTH AFRICA</option>
+                            <option value="66">(+34) SPAIN</option>
+                            <option value="129">(+94) SRI LANKA</option>
+                            <option value="206">(+597) SURINAME</option>
+                            <option value="210">(+268) SWAZILAND</option>
+                            <option value="196">(+46) SWEDEN</option>
+                            <option value="99">(+41) SWITZERLAND</option>
+                            <option value="209">(+963) SYRIAN ARAB REPUBLIC</option>
+                            <option value="225">(+886) TAIWAN</option>
+                            <option value="216">(+992) TAJIKISTAN</option>
+                            <option value="215">(+66) THAILAND</option>
+                            <option value="218">(+670) TIMOR-LESTE</option>
+                            <option value="214">(+228) TOGO</option>
+                            <option value="217">(+690) TOKELAU</option>
+                            <option value="221">(+676) TONGA</option>
+                            <option value="223">(+1868) TRINIDAD AND TOBAGO</option>
+                            <option value="220">(+216) TUNISIA</option>
+                            <option value="222">(+90) TURKEY</option>
+                            <option value="219">(+7370) TURKMENISTAN</option>
+                            <option value="211">(+1649) TURKS AND CAICOS ISLANDS</option>
+                            <option value="224">(+688) TUVALU</option>
+                            <option value="227">(+380) UKRAINE</option>
+                            <option value="2">(+971) UNITED ARAB EMIRATES</option>
+                            <option value="75">(+44) UNITED KINGDOM</option>
+                            <option value="231">(+598) URUGUAY</option>
+                            <option value="232">(+998) UZBEKISTAN</option>
+                            <option value="239">(+678) VANUATU</option>
+                            <option value="235">(+58) VENEZUELA</option>
+                            <option value="238">(+84) VIET NAM</option>
+                            <option value="236">(+1284) VIRGIN ISLANDS, BRITISH</option>
+                            <option value="237">(+1340) VIRGIN ISLANDS, U.S.</option>
+                            <option value="240">(+681) WALLIS AND FUTUNA</option>
+                            <option value="242">(+967) YEMEN</option>
+                            <option value="245">(+260) ZAMBIA</option>
+                            <option value="246">(+263) ZIMBABWE</option>
+                        </select>
+                        <input type="text" name="sponsor_mob" id="phone1" class="" maxlength="10" title="Please enter the sponsor telephone" style="width:72%; float:right" value="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 formrowpadding sponsor-email">
+                        <label class="heading">Sponsor's Email*</label><br>
+                        <input type="text" name="sponsor_email" maxlength="100" title="Please enter the sponsor email" id="sponsor_email" class="programme-small-input2" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 formrowpadding check-space check-space-font">
+                    <label class="heading">Are you being finance by HELB ?</label>
+                    <input type="radio" id="Other" title="Please select HELB" name="f_helb" value="yes"><label for="yes">YES</label>
+                    <input type="radio" id="Other" title="Please select HELB" name="f_helb" value="no"><label for="no"> NO</label> 
+                </div>
+            </div>
+            <div style="width:100%; border-top:1px solid #d4d4d4; padding-top:10px; height:5px; padding-bottom:0px; margin-top:15px; margin-bottom:5px; float:left">&nbsp;</div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 formrowpadding">
+                    <label class="heading" style="font-size:16px; padding-bottom:15px;">Next of KIN</label>
+                </div>
+            </div>
+            <div class="bootstraptable">
+                <div class="row kinnamesection">
+                    <div class="col-xs-12 col-sm-12 col-md-6 spons-row formrowpadding">
+                        <label class="heading">Name*</label><br>
+                        <input type="text" maxlength="30" title="Please enter the kin name" name="kin_name" id="kin_name" value=""></div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 spons-row formrowpadding">
+                            <label class="heading">Address*</label><br>
+                            <textarea name="kin_address" class="address2" maxlength="300" id="kin_address" title="Please enter the kin address" cols="33" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="row kinnamesection kinnamesection2">
+                        <div class="col-xs-12 col-sm-12 col-md-6 spons-row formrowpadding sponsertelephone telephone-element">
+                            <label class="heading">Telephone*</label><br>
+                            <select name="kin_countrycode" id="kin_countrycode" class="countrycombo" title="Please select kin counrty code">
+                                <option value="114">(+254) KENYA</option>
+                                <option value="226">(+255) TANZANIA</option>
+                                <option value="228">(+256) UGANDA</option>
+                                <option value="25">(+257) BURUNDI</option>
+                                <option value="191">(+250) RWANDA</option>
+                                <option value="41">(+236) CENTRAL AFRICAN REPUBLIC</option>
+                                <option value="56">(+253) DJIBOUTI</option>
+                                <option value="65">(+291) ERITREA</option>
+                                <option value="67">(+251) ETHIOPIA</option>
+                                <option value="40">(+243) DEMOCRATIC REPUBLIC OF THE CONGO</option>
+                                <option value="205">(+252) SOMALIA</option>
+                                <option value="247">(+211) SOUTH SUDAN</option>
+                                <option value="195">(+249) SUDAN</option>
+                                <option value="3">(+93) AFGHANISTAN</option>
+                                <option value="6">(+355) ALBANIA</option>
+                                <option value="60">(+213) ALGERIA</option>
+                                <option value="12">(+1684) AMERICAN SAMOA</option>
+                                <option value="1">(+376) ANDORRA</option>
+                                <option value="9">(+244) ANGOLA</option>
+                                <option value="5">(+1264) ANGUILLA</option>
+                                <option value="4">(+1268) ANTIGUA AND BARBUDA</option>
+                                <option value="11">(+54) ARGENTINA</option>
+                                <option value="7">(+374) ARMENIA</option>
+                                <option value="15">(+297) ARUBA</option>
+                                <option value="14">(+61) AUSTRALIA</option>
+                                <option value="13">(+43) AUSTRIA</option>
+                                <option value="17">(+994) AZERBAIJAN</option>
+                                <option value="32">(+1242) BAHAMAS</option>
+                                <option value="24">(+973) BAHRAIN</option>
+                                <option value="20">(+880) BANGLADESH</option>
+                                <option value="19">(+1246) BARBADOS</option>
+                                <option value="36">(+375) BELARUS</option>
+                                <option value="21">(+32) BELGIUM</option>
+                                <option value="37">(+501) BELIZE</option>
+                                <option value="26">(+229) BENIN</option>
+                                <option value="28">(+1441) BERMUDA</option>
+                                <option value="33">(+975) BHUTAN</option>
+                                <option value="30">(+591) BOLIVIA</option>
+                                <option value="18">(+387) BOSNIA AND HERZEGOVINA</option>
+                                <option value="35">(+267) BOTSWANA</option>
+                                <option value="31">(+55) BRAZIL</option>
+                                <option value="105">(+246) BRITISH INDIAN OCEAN TERRITORY</option>
+                                <option value="29">(+673) BRUNEI DARUSSALAM</option>
+                                <option value="23">(+359) BULGARIA</option>
+                                <option value="22">(+226) BURKINA FASO</option>
+                                <option value="116">(+855) CAMBODIA</option>
+                                <option value="46">(+237) CAMEROON</option>
+                                <option value="38">(+1) CANADA</option>
+                                <option value="51">(+238) CAPE VERDE</option>
+                                <option value="123">(+1345) CAYMAN ISLANDS</option>
+                                <option value="212">(+235) CHAD</option>
+                                <option value="45">(+56) CHILE</option>
+                                <option value="47">(+86) CHINA</option>
+                                <option value="39">(+672) COCOS (KEELING) ISLANDS</option>
+                                <option value="48">(+57) COLOMBIA</option>
+                                <option value="118">(+269) COMOROS</option>
+                                <option value="44">(+682) COOK ISLANDS</option>
+                                <option value="49">(+506) COSTA RICA</option>
+                                <option value="43">(+225) CÔTE D'IVOIRE</option>
+                                <option value="96">(+385) CROATIA</option>
+                                <option value="50">(+53) CUBA</option>
+                                <option value="53">(+357) CYPRUS</option>
+                                <option value="54">(+420) CZECH REPUBLIC</option>
+                                <option value="57">(+45) DENMARK</option>
+                                <option value="58">(+1767) DOMINICA</option>
+                                <option value="59">(+1809) DOMINICAN REPUBLIC</option>
+                                <option value="61">(+593) ECUADOR</option>
+                                <option value="63">(+20) EGYPT</option>
+                                <option value="208">(+503) EL SALVADOR</option>
+                                <option value="86">(+240) EQUATORIAL GUINEA</option>
+                                <option value="62">(+372) ESTONIA</option>
+                                <option value="70">(+500) FALKLAND ISLANDS (MALVINAS)</option>
+                                <option value="72">(+298) FAROE ISLANDS</option>
+                                <option value="69">(+679) FIJI</option>
+                                <option value="68">(+358) FINLAND</option>
+                                <option value="73">(+33) FRANCE</option>
+                                <option value="78">(+594) FRENCH GUIANA</option>
+                                <option value="174">(+689) FRENCH POLYNESIA</option>
+                                <option value="74">(+241) GABON</option>
+                                <option value="83">(+220) GAMBIA</option>
+                                <option value="77">(+995) GEORGIA</option>
+                                <option value="55">(+49) GERMANY</option>
+                                <option value="80">(+233) GHANA</option>
+                                <option value="81">(+350) GIBRALTAR</option>
+                                <option value="87">(+30) GREECE</option>
+                                <option value="82">(+299) GREENLAND</option>
+                                <option value="76">(+1473) GRENADA</option>
+                                <option value="85">(+590) GUADELOUPE</option>
+                                <option value="90">(+1671) GUAM</option>
+                                <option value="89">(+502) GUATEMALA</option>
+                                <option value="84">(+224) GUINEA</option>
+                                <option value="91">(+245) GUINEA-BISSAU</option>
+                                <option value="92">(+592) GUYANA</option>
+                                <option value="97">(+509) HAITI</option>
+                                <option value="233">(+39) HOLY SEE (VATICAN CITY STATE)</option>
+                                <option value="95">(+504) HONDURAS</option>
+                                <option value="93">(+852) HONG KONG</option>
+                                <option value="98">(+36) HUNGARY</option>
+                                <option value="108">(+354) ICELAND</option>
+                                <option value="104">(+91) INDIA</option>
+                                <option value="100">(+62) INDONESIA</option>
+                                <option value="107">(+98) IRAN, ISLAMIC REPUBLIC OF</option>
+                                <option value="106">(+964) IRAQ</option>
+                                <option value="101">(+353) IRELAND</option>
+                                <option value="102">(+972) ISRAEL</option>
+                                <option value="111">(+1876) JAMAICA</option>
+                                <option value="113">(+81) JAPAN</option>
+                                <option value="112">(+962) JORDAN</option>
+                                <option value="124">(+7) KAZAKHSTAN</option>
+                                <option value="117">(+686) KIRIBATI</option>
+                                <option value="120">(+850) KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option>
+                                <option value="121">(+82) KOREA, REPUBLIC OF</option>
+                                <option value="122">(+965) KUWAIT</option>
+                                <option value="115">(+996) KYRGYZSTAN</option>
+                                <option value="125">(+856) LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+                                <option value="134">(+371) LATVIA</option>
+                                <option value="126">(+961) LEBANON</option>
+                                <option value="131">(+266) LESOTHO</option>
+                                <option value="130">(+231) LIBERIA</option>
+                                <option value="135">(+218) LIBYAN ARAB JAMAHIRIYA</option>
+                                <option value="128">(+423) LIECHTENSTEIN</option>
+                                <option value="132">(+370) LITHUANIA</option>
+                                <option value="133">(+352) LUXEMBOURG</option>
+                                <option value="147">(+853) MACAO</option>
+                                <option value="143">(+389) MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
+                                <option value="141">(+261) MADAGASCAR</option>
+                                <option value="155">(+265) MALAWI</option>
+                                <option value="157">(+60) MALAYSIA</option>
+                                <option value="154">(+960) MALDIVES</option>
+                                <option value="144">(+223) MALI</option>
+                                <option value="152">(+356) MALTA</option>
+                                <option value="142">(+692) MARSHALL ISLANDS</option>
+                                <option value="149">(+596) MARTINIQUE</option>
+                                <option value="150">(+222) MAURITANIA</option>
+                                <option value="153">(+230) MAURITIUS</option>
+                                <option value="156">(+52) MEXICO</option>
+                                <option value="71">(+691) MICRONESIA, FEDERATED STATES OF</option>
+                                <option value="138">(+373) MOLDOVA, REPUBLIC OF</option>
+                                <option value="137">(+377) MONACO</option>
+                                <option value="146">(+976) MONGOLIA</option>
+                                <option value="151">(+1664) MONTSERRAT</option>
+                                <option value="136">(+212) MOROCCO</option>
+                                <option value="158">(+258) MOZAMBIQUE</option>
+                                <option value="145">(+95) MYANMAR</option>
+                                <option value="159">(+264) NAMIBIA</option>
+                                <option value="168">(+674) NAURU</option>
+                                <option value="167">(+977) NEPAL</option>
+                                <option value="165">(+31) NETHERLANDS</option>
+                                <option value="8">(+599) NETHERLANDS ANTILLES</option>
+                                <option value="160">(+687) NEW CALEDONIA</option>
+                                <option value="170">(+64) NEW ZEALAND</option>
+                                <option value="164">(+505) NICARAGUA</option>
+                                <option value="161">(+227) NIGER</option>
+                                <option value="163">(+234) NIGERIA</option>
+                                <option value="169">(+683) NIUE</option>
+                                <option value="148">(+1670) NORTHERN MARIANA ISLANDS</option>
+                                <option value="166">(+47) NORWAY</option>
+                                <option value="171">(+968) OMAN</option>
+                                <option value="177">(+92) PAKISTAN</option>
+                                <option value="184">(+680) PALAU</option>
+                                <option value="182">(+970) PALESTINIAN TERRITORY, OCCUPIED</option>
+                                <option value="172">(+507) PANAMA</option>
+                                <option value="175">(+675) PAPUA NEW GUINEA</option>
+                                <option value="185">(+595) PARAGUAY</option>
+                                <option value="173">(+51) PERU</option>
+                                <option value="176">(+63) PHILIPPINES</option>
+                                <option value="178">(+48) POLAND</option>
+                                <option value="183">(+351) PORTUGAL</option>
+                                <option value="181">(+1787) PUERTO RICO</option>
+                                <option value="186">(+974) QATAR</option>
+                                <option value="187">(+262) RÉUNION</option>
+                                <option value="188">(+40) ROMANIA</option>
+                                <option value="190">(+70) RUSSIAN FEDERATION</option>
+                                <option value="198">(+290) SAINT HELENA</option>
+                                <option value="119">(+1869) SAINT KITTS AND NEVIS</option>
+                                <option value="127">(+1758) SAINT LUCIA</option>
+                                <option value="179">(+508) SAINT PIERRE AND MIQUELON</option>
+                                <option value="234">(+1784) SAINT VINCENT AND THE GRENADINES</option>
+                                <option value="241">(+684) SAMOA</option>
+                                <option value="203">(+378) SAN MARINO</option>
+                                <option value="207">(+239) SAO TOME AND PRINCIPE</option>
+                                <option value="192">(+966) SAUDI ARABIA</option>
+                                <option value="204">(+221) SENEGAL</option>
+                                <option value="194">(+248) SEYCHELLES</option>
+                                <option value="202">(+232) SIERRA LEONE</option>
+                                <option value="197">(+65) SINGAPORE</option>
+                                <option value="201">(+421) SLOVAKIA</option>
+                                <option value="199">(+386) SLOVENIA</option>
+                                <option value="193">(+677) SOLOMON ISLANDS</option>
+                                <option value="244">(+27) SOUTH AFRICA</option>
+                                <option value="66">(+34) SPAIN</option>
+                                <option value="129">(+94) SRI LANKA</option>
+                                <option value="206">(+597) SURINAME</option>
+                                <option value="210">(+268) SWAZILAND</option>
+                                <option value="196">(+46) SWEDEN</option>
+                                <option value="99">(+41) SWITZERLAND</option>
+                                <option value="209">(+963) SYRIAN ARAB REPUBLIC</option>
+                                <option value="225">(+886) TAIWAN</option>
+                                <option value="216">(+992) TAJIKISTAN</option>
+                                <option value="215">(+66) THAILAND</option>
+                                <option value="218">(+670) TIMOR-LESTE</option>
+                                <option value="214">(+228) TOGO</option>
+                                <option value="217">(+690) TOKELAU</option>
+                                <option value="221">(+676) TONGA</option>
+                                <option value="223">(+1868) TRINIDAD AND TOBAGO</option>
+                                <option value="220">(+216) TUNISIA</option>
+                                <option value="222">(+90) TURKEY</option>
+                                <option value="219">(+7370) TURKMENISTAN</option>
+                                <option value="211">(+1649) TURKS AND CAICOS ISLANDS</option>
+                                <option value="224">(+688) TUVALU</option>
+                                <option value="227">(+380) UKRAINE</option>
+                                <option value="2">(+971) UNITED ARAB EMIRATES</option>
+                                <option value="75">(+44) UNITED KINGDOM</option>
+                                <option value="231">(+598) URUGUAY</option>
+                                <option value="232">(+998) UZBEKISTAN</option>
+                                <option value="239">(+678) VANUATU</option>
+                                <option value="235">(+58) VENEZUELA</option>
+                                <option value="238">(+84) VIET NAM</option>
+                                <option value="236">(+1284) VIRGIN ISLANDS, BRITISH</option>
+                                <option value="237">(+1340) VIRGIN ISLANDS, U.S.</option>
+                                <option value="240">(+681) WALLIS AND FUTUNA</option>
+                                <option value="242">(+967) YEMEN</option>
+                                <option value="245">(+260) ZAMBIA</option>
+                                <option value="246">(+263) ZIMBABWE</option>
+                            </select>
+                            <input type="text" name="kin_mob" title="Please enter the kin mobile" id="phone_kin1" class="phone" maxlength="10" value="">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 spons-row formrowpadding sponsor-email sponsor-email2">
+                            <label class="heading">Email*</label><br>
+                            <input type="text" title="Please enter the kin email" maxlength="100" id="kin_email" name="kin_email" class="programme-small-input2" value="">
+                        </div>
+                    </div>
+                </div>
+                <table cellpadding="0" cellspacing="0" style="width: 100%" border="0">
+                    <tbody>
+                        <tr>
+                            <td colspan="2" style="padding-left:0px">
+                                <div>
+                                    <table cellpadding="0" cellspacing="0" style="width: 100%; margin-left: 0;" border="0">
+                                       <tbody>
+                                        <tr>
+                                            <td style="width: 25%; display: none;" class="td-2nd" colspan="2">
+                                                <label class="heading"> Choose Campus* </label><br>
+                                                <select name="campus" id="campus" class="" title="Please select campus">
+                                                    <!-- List of all JKUAT statelite campuses-->
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="Programmeshow2" style="display: "></div>  
+                            <div id="Programmeshow3" style="display:none"></div> 
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td align="right"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="buttion-border clearfix" style="text-align: right;">
+                <span style="">
+                    <a href="index.html">
+                        <input type="button" value="Back">
+                    </a>
+                </span> 
+                <input type="hidden" name="id" value="" id="programmeid">
+                <span style="">
+                    <span style=""><input type="submit" value="Download PDF" name="pdf"></span>
+                        <input type="submit" id="programmeform" name="saveprogramme" value="Save &amp; Next  ">
+                    </span>
+                </div>
+            </form>
+        </div> <!--right-side end-->
+    </div>
+    <!--Form End-->
+
+        <style type="text/css">
+         .sponsornameinput{ height:auto}
+         .form-container .address2{ min-height:39px;}
+         </style>
+     </div>
+ </div>
+</div>
+</div>
+</div>﻿	
+</div>
+
+<!-- Footer Starts-->
+<div id="box_wrap">
+<div class="container">
+    <div id="box_placeholder">
+        <div id="box1" class="col-xs-12 col-sm-6 col-md-3">
+            <div class="moduletable">
+                <h3>News Letter</h3>
+                <div class="custom">
+                    <p style="text-align: none;">
+                        <a target="_blank" href="http://data.axmag.com/data/201412/20141204/U103478_F315002/FLASH/index.html">
+                            <img width="115" height="158" style="margin-right: 5px; float: left;" alt="jan vol1 2015 issue 1" src="./includes/jan_vol1_2015_issue_1.jpg">
+                        </a>
+                        <a target="_blank" href="">Read the current Newsletter online.</a>
+                    </p>
+                    <p style="text-align: none;">
+                        <a target="_blank" href="">Download PDF Version.</a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="">Download the previous issues</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="box2" class="col-xs-12 col-sm-6 col-md-3"> 
+            <div class="moduletable">
+                <h3>Subscribe to Newsletter</h3>
+                <div class="custom">
+                    <p>Don't miss any of the interesting happenings in Jomo Kenyatta University of Agriculture & Technology by subscribing to receive our latest Newsletter.</p>
+                </div>
+            </div>
+        </div>
+        <div id="box3" class="col-xs-12 col-sm-6 col-md-3"> 
+            <div class="moduletable">
+                <h3>Contact Us</h3> 
+                <div class="custom">
+                    <p>For General Inquiries contact us on:
+                        <strong>Telephone:&nbsp;</strong>
+                        <span style="color: #ffffff;">+254 20 8703000,&nbsp;</span>
+                        <br>
+                        <span>+254 20 8704000,&nbsp;</span>
+                        <br>
+                        <span>+254 20 8710901</span> 
+                        <br>
+                        <strong>Email:&nbsp;
+                            <a href="mailto:registrar-acad@jkuat.ac.ke">registrar-acad@jkuat.ac.ke</a>
+                            <span style="display: none;">This email address is being protected from spambots. You need JavaScript enabled to view it.
+                                <script type="text/javascript"></script>
+                            </span>
+                        </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="box4" class="col-xs-12 col-sm-6 col-md-3"> 
+            <div class="moduletable">
+                <h3>Connect With Us</h3>
+                <div class="custom">
+                    <div class="sticky-chat" style="position: inherit;">
+                        <div id="Mod149" class="ja-moduletable moduletable  clearfix">
+                            <h3><span>LIVE CHAT PLATFORM</span></h3>
+                            <div class="ja-box-ct clearfix">
+                                <div class="custom">
+                                    <p style="padding: 0px;">
+                                        <a target="_blank" href="">
+                                            <img width="192" height="104" alt="the chat" src="./includes/the_chat.png">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="mainfooter clearfix">
+        <!-- SPOTLIGHT -->
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-left">
+            <div id="Mod95" class="ja-moduletable moduletable  clearfix">
+                <h3><span>Quick Links</span></h3>
+                <div class="ja-box-ct clearfix">
+                    <ul class="menu">
+                        <li class="item-470">
+                            <a href="http://www.ku.ac.ke/images/stories/docs/ku_academic_calendar%20_2014-2017.pdf" target="_blank">JKUAT HANDBOOK</a>
+                        </li>
+                        <li class="item-794">
+                            <a href="" target="_blank">JKUAT SCHOOLS</a>
+                        </li>
+                        <li class="item-653">
+                            <a href="" target="_blank">JKUAT DEPARTMENTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-center">
+            <div id="Mod106" class="ja-moduletable moduletable  clearfix">
+                <!-- <h3><span>Online Resources</span></h3> -->
+                <div class="ja-box-ct clearfix"></div>
+            </div>
+        </div>
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-right">
+            <div id="Mod107" class="ja-moduletable moduletable  clearfix">
+                <div class="ja-box-ct clearfix"></div>
+            </div>
+        </div>
+        <!-- SPOTLIGHT -->
+    </div>
+</div>
+</div>
+ <!--box wrap end-->
+<div class="copyright-content">
+    <div id="copyright" class="container">
+        <div class="col-xs-12 col-sm-8 col-md-6">
+            <p>Jomo Kenyatta University of Agriculture & Technology...ISO 9001:2008 Certified</p>
+            <p>Copyright &copy; 2015 Jomo Kenyatta University of Agricuture & Technology. All Rights Reserved.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-6 poweredbytxt"><a href="" target="_blank">Valentine Wacuka</a></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+</div>
+<div id="cboxOverlay" style="display: none;" class=""></div>
+<div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+    <div id="cboxWrapper">
+        <div>
+            <div id="cboxTopLeft" style="float: left;"></div>
+            <div id="cboxTopCenter" style="float: left;"></div>
+            <div id="cboxTopRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxMiddleLeft" style="float: left;"></div>
+            <div id="cboxContent" style="float: left;">
+                <div id="cboxTitle" style="float: left;"></div>
+                <div id="cboxCurrent" style="float: left;"></div>
+                <button type="button" id="cboxPrevious"></button>
+                <button type="button" id="cboxNext"></button>
+                <button id="cboxSlideshow"></button>
+                <div id="cboxLoadingOverlay" style="float: left;"></div>
+                <div id="cboxLoadingGraphic" style="float: left;"></div>
+            </div>
+            <div id="cboxMiddleRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxBottomLeft" style="float: left;"></div>
+            <div id="cboxBottomCenter" style="float: left;"></div>
+            <div id="cboxBottomRight" style="float: left;"></div>
+        </div>
+    </div>
+    <div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div>
+</div>
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible">
+    <div style="display: none;">Please choose first programme</div>
+    <div style="display: none;">Please select campus</div>
+    <div>Enter Enrollment Number (if any) course previously attended</div>
+</div>
+
+</div>
+</body>
+</html>

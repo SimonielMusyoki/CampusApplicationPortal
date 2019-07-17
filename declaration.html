@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html class="fa-events-icons-ready">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="./includes/style.css" type="text/css">
+    <link rel="stylesheet" href="./includes/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./includes/font-awesome.min.css" type="text/css">
+    <style type="text/css">
+        .fancybox-skin{ 
+            left: 50%;
+            padding: 5px!important;
+            position: fixed!important;
+            top: 50%;
+            transform: translate(-50%, -50%); 
+            -moz-transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+        }
+    </style>
+    <!-- Scripts Starts Here -->
+
+    <script async="" src="./includes/analytics.js"></script>
+    <script type="text/javascript" async="" src="./includes/recaptcha__en.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var ROUTED_PATH = '';
+    </script>
+    <link rel="stylesheet" href="./includes/jquery-ui.css">
+    <link rel="stylesheet" href="./includes/colorbox.css">
+    <script src="./includes/jquery-1.10.2.js"></script>
+    <script src="./includes/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="./includes/jquery.fancybox.css">
+
+    <!-- Scripts Starts Here -->
+    <script type="text/javascript" src="./includes/jquery.fancybox.js"></script>
+    <script src="./includes/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="./includes/jquery.colorbox.js"></script>
+    <script type="text/javascript" src="./includes/validation.js"></script>
+    <script type="text/javascript">
+        $(function(){
+          $( 'form' ).tooltip({
+              position: { my: "right top", at: "right bottom" },
+              open: function(event, ui) {
+                $(ui.tooltip).siblings(".ui-tooltip").remove();
+              }
+        }).off("focusin,focusout,mouseover,mouseout");
+
+        $('body').on({mouseenter: function() {$(".ui-tooltip").hide();},mouseleave: function() {
+        $(".ui-tooltip").show();
+        }
+        },'#ui-datepicker-div');
+         
+          $("table.tbltab tr:odd").addClass("oddrow");
+          $("table.tbltab tr:even").addClass("evenrow");
+        });
+
+        $(function() {
+        $("#date" ).datepicker({
+                    dateFormat : 'yy-mm-dd',
+                    changeMonth : true,
+                    changeYear : true,
+                    yearRange: '-80y:c+nn',
+                    maxDate: '-1d',
+                    defaultDate: -11000
+                    
+            });
+        });
+        function confusepop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/help',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5
+                        });
+        }
+
+
+        function mpesapop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/mpesadetail',
+                            type: 'iframe',
+                            scolling: 'no',
+                             padding: 5,
+                           minHeight: 550
+                        });
+        }
+        function requirementpop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/requriementsdocs',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5,
+                            minHeight: 370
+                           
+                        });
+        }
+        function howtoapply(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/howtoapply',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5,
+                            minHeight: 700
+                        });
+        }
+
+        function openmulticourse(uid){
+             $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/multicourse/uid/'+uid,
+                                type: 'iframe',
+                                width: '700px',
+                    height:'400px',
+                                fitToView: false,
+                                autoSize: false
+
+                        });
+            }
+                
+                function openselected(val){
+          $.fancybox.open({
+                                href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1',
+                                type: 'iframe',
+                                width: '700px',
+                    height:'400px',
+                                fitToView: false,
+                                autoSize: false
+
+                        });
+
+        }
+    </script>
+    <title>Jomo Kenyatta University of Agriculture & Technology</title>
+    <style type="text/css">.fancybox-margin{margin-right:15px;}</style>
+    <link href="./includes/840a321d95.css" media="all" rel="stylesheet">
+</head>
+
+
+<body style="">
+    <!-- Header Starts Here-->
+    <link href="./includes/css" rel="stylesheet" type="text/css"> 
+    <div id="wrapper">
+        <!--header start-->
+        <div class="header-con">
+            <div id="header" class="container">
+                <!-- TopNav -->
+                <!--<div id="topnav">
+                    <div class="moduletable">
+                        <div class="custom">
+                            <p><span style="font-size: 8pt;"><a href="#">NAIROBI CITY CAMPUS</a></span> &nbsp;&nbsp;&nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">GABA CAMPUS</a></span>&nbsp; &nbsp; &nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">KISUMU CAMPUS</a></span> &nbsp; &nbsp;&nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">ALUMNI</a></span>&nbsp; &nbsp; &nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">AMECEA</a></span></p>
+                                        </div>
+                                </div>
+                        </div>--->
+                        <!-- Logo -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-7">
+                        <div id="logo">
+                            <a href="index.html">
+                                <img alt="Jomo Kenyatta University of Agriculture & Technology" src="./includes/logo-jkuat.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Search -->
+                    <div class="col-xs-12 col-sm-6 col-md-5">
+                        <div class="form_enquiry doyouneedhelp">
+                            <span class=" " style="color:#fff;cursor:pointer" onclick="confusepop()">Do you need help?</span> 
+                        </div>
+                        <div class="form_enquiry">
+                            <span class=" " style="color:#fff;cursor:pointer;" onclick="howtoapply()">How to Apply?</span> 
+                        </div>
+                    </div>
+                </div>
+                <div id="search">
+                    <div class="search"></div>
+                </div>
+            </div>
+        </div>
+        <!--header end-->
+        <!--navigation start-->
+        <div class="top-menucont">
+           <div class="container">
+                <div id="topmenu">
+                    <ul class="menu">
+                        <li class="item-101"><a href="index.html" target="_blank">Home</a></li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/" target="_blank">
+                                <img alt="Twitter" src="./includes/twitter.png">
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img alt="Facebook" src="./includes/fb.png">
+                            </a>
+                        </li>
+                        <li class="google-plus">  
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <img alt="Linkedin" src="./includes/linkedin.png">
+                            </a>
+                        </li>
+                        <li class="req-doc">  
+                            <a title="Requirements Docs" href="javascript:void(0)" disabled="disabled">
+                                <img alt="Linkedin" src="./includes/docs.png" onclick="requirementpop()">
+                            </a>
+                        </li>
+<!--<li class="mpesa-de">  <a title="mPesa Details" href="javascript:void(0)" disabled='disabled'>
+                                        <img alt="Linkedin" src="https://applications.ku.ac.ke/registration/public/images/m-pesa.png" onclick='mpesapop()'/></a></li> -->
+
+
+
+                                <!-- <li class="item-113 parent"><a href="#">Faculties</a></l_bi>
+<li class="item-102 current deeper parent">About 
+  Us
+                          </li>
+  <li class="item-124 parent"><a href="#">Library</a></li>
+  <li class="item-135 parent"><a href="#">Admissions</a></li>
+  <li class="item-141 parent"><a href="#">Departments</a></li>
+  <li class="item-155 parent"><a href="#">Facilities</a></li>
+  <li class="item-194"><a href="#">Information Portal</a></li>
+  <li class="item-194" style="padding-right: 0px;"><a href="#">Login</a></li>-->
+
+                    </ul>
+                    <div class="header-info">Current Session is MAY-2019</div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <!--navigation end-->
+
+        <div style="clear: both;"></div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-65414722-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <div class="mainContainer" style="width:100%; float:left; min-height:600px;">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="row applicationformarea">
+          <!--Form Strat-->
+          <div class="left-menu col-xs-12 col-sm-4 col-md-4">
+            <ul>
+            <!--    <li>  <div class="">
+                    <a  class='callbacks' href="/index.php/index/enquiry"><span class="step">Step</span> <span class="number">0</span>Enquiry</a>    
+                </div></li>-->
+                <li>
+                    <a href="index.html">
+                        <span class="step">Step</span> 
+                        <span class="number">1</span>
+                        <span class="leftmenutxt">Personal Data</span>  
+                    </a>
+                </li>
+                <li>
+                    <a href="programmes.html">
+                        <span class="step">Step</span> 
+                        <span class="number">2</span>
+                        <span class="leftmenutxt">Programme</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="academic-profile.html">
+                        <span class="step">Step</span> 
+                        <span class="number">3</span>
+                        <span class="leftmenutxt">Academic Profile</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="additional-data.html">
+                        <span class="step">Step</span> 
+                        <span class="number">4</span>
+                        <span class="leftmenutxt">Additional Data</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="declaration.html" class="active">
+                        <span class="step">Step</span> 
+                        <span class="number">5</span>
+                        <span class="leftmenutxt">Declaration and Verification</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="payment.html">
+                        <span class="step">Step</span> 
+                        <span class="number">6</span>
+                        <span class="leftmenutxt">Payment</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html#" onclick="">
+                        <span class="step">Step</span> 
+                        <span class="number">7</span>
+                        <span class="leftmenutxt">Finish</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://applications.ku.ac.ke/registration/public/index.php/index/downloadpdfform">
+                        <span class="step">Step</span> 
+                        <span class="number">8</span>
+                        <span>Download Form</span>
+                    </a>
+                </li>
+            </ul>
+        </div> <!--left menu end-->
+                    
+<div class="Section col-xs-12 col-sm-8 col-md-8 pull-right">            
+   <!--Form Strat-->
+<script>
+        
+    function opencourse(val) {
+                $.fancybox.open({
+                        href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1',
+                        type: 'iframe',
+                        width: '700px',
+			height:'400px',
+                        fitToView: false,
+                        autoSize: false
+
+                });
+        }
+	function openmulticourse(uid){
+	 $.fancybox.open({
+                    href: 'https://applications.ku.ac.ke/registration/public/index.php/index/multicourse/uid/'+uid,
+                        type: 'iframe',
+                        width: '700px',
+			height:'400px',
+                        fitToView: false,
+                        autoSize: false
+
+                });
+	   }
+    function openselected(val){
+    $.fancybox.open({
+                        href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1',
+                        type: 'iframe',
+                        width: '700px',
+			height:'400px',
+                        fitToView: false,
+                        autoSize: false
+
+                });
+
+    }
+</script>
+        <div class="form-container clearfix responsive-form-container-full">
+        <div class="right-side">
+        <div class="heading-main">
+			<h2>Declaration and Verification</h2>
+		</div>
+        <form name="verificationdetails" method="post" action="payment.html" class="formpadding">
+            <table cellpadding="0" cellspacing="0" style="width: 100%" border="0">
+                <tbody>
+                    <tr>
+                        <td colspan="2" style="margin:0px; padding:0px;">
+                            <div id="errorMsg" class="error"></div>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td class="check-space" colspan="2">
+                            <input type="checkbox" id="agree" name="agree" title="Please select the agree">
+                            <label for="agree"> I Agree</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <table cellpadding="0" cellspacing="0" style="width: 94%" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <label class="gray-heading">The information provided is true to the best of my knowledge. If selected, I agree to abide by the rules and regulations of Jomo Kenyatta University of Agriculture & Technology. False Information will lead for disqualification.</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <label class="heading">Date</label>
+                                            <label>2019-05-15</label>
+                                            <input type="hidden" name="date" id="date" value="2019-05-15" class="hasDatepicker">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="errorMsg" class="error"></div>
+                        </td>
+                    </tr>
+		        </tbody>
+            </table>
+            <div class="buttion-border clearfix" style="text-align: right">
+                <span style="">
+                    <a href="additional-data.html">
+                        <input type="button" value="Back">
+                    </a>
+                </span> 
+                <span style="">
+                    <span style=""><input type="submit" name="pdf" value="Download PDF"></span>
+                    <input type="submit" id="verificationsubmit" value="Save &amp; Next  ">
+                </span>
+            </div>
+            <input type="hidden" id="dataid" name="dataid" value="49802">
+        </form>
+    </div> <!--right-side end-->
+</div>
+<!--Form End-->
+</div>
+</div>
+</div>
+</div>
+</div>﻿	
+
+</div>
+
+
+
+
+<!-- Footer starts-->
+<div id="box_wrap">
+<div class="container">
+    <div id="box_placeholder">
+        <div id="box1" class="col-xs-12 col-sm-6 col-md-3">
+            <div class="moduletable">
+                <h3>News Letter</h3>
+                <div class="custom">
+                    <p style="text-align: none;">
+                        <a target="_blank" href="http://data.axmag.com/data/201412/20141204/U103478_F315002/FLASH/index.html">
+                            <img width="115" height="158" style="margin-right: 5px; float: left;" alt="jan vol1 2015 issue 1" src="./includes/jan_vol1_2015_issue_1.jpg">
+                        </a>
+                        <a target="_blank" href="">Read the current Newsletter online.</a>
+                    </p>
+                    <p style="text-align: none;">
+                        <a target="_blank" href="">Download PDF Version.</a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="">Download the previous issues</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="box2" class="col-xs-12 col-sm-6 col-md-3"> 
+            <div class="moduletable">
+                <h3>Subscribe to Newsletter</h3>
+                <div class="custom">
+                    <p>Don't miss any of the interesting happenings in Jomo Kenyatta University of Agriculture & Technology by subscribing to receive our latest Newsletter.</p>
+                </div>
+            </div>
+        </div>
+        <div id="box3" class="col-xs-12 col-sm-6 col-md-3"> 
+            <div class="moduletable">
+                <h3>Contact Us</h3> 
+                <div class="custom">
+                    <p>For General Inquiries contact us on:
+                        <strong>Telephone:&nbsp;</strong>
+                        <span style="color: #ffffff;">+254 20 8703000,&nbsp;</span>
+                        <br>
+                        <span>+254 20 8704000,&nbsp;</span>
+                        <br>
+                        <span>+254 20 8710901</span> 
+                        <br>
+                        <strong>Email:&nbsp;
+                            <a href="mailto:registrar-acad@jkuat.ac.ke">registrar-acad@jkuat.ac.ke</a>
+                            <span style="display: none;">This email address is being protected from spambots. You need JavaScript enabled to view it.
+                                <script type="text/javascript"></script>
+                            </span>
+                        </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="box4" class="col-xs-12 col-sm-6 col-md-3"> 
+            <div class="moduletable">
+                <h3>Connect With Us</h3>
+                <div class="custom">
+                    <div class="sticky-chat" style="position: inherit;">
+                        <div id="Mod149" class="ja-moduletable moduletable  clearfix">
+                            <h3><span>LIVE CHAT PLATFORM</span></h3>
+                            <div class="ja-box-ct clearfix">
+                                <div class="custom">
+                                    <p style="padding: 0px;">
+                                        <a target="_blank" href="">
+                                            <img width="192" height="104" alt="the chat" src="./includes/the_chat.png">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="mainfooter clearfix">
+        <!-- SPOTLIGHT -->
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-left">
+            <div id="Mod95" class="ja-moduletable moduletable  clearfix">
+                <h3><span>Quick Links</span></h3>
+                <div class="ja-box-ct clearfix">
+                    <ul class="menu">
+                        <li class="item-470">
+                            <a href="http://www.ku.ac.ke/images/stories/docs/ku_academic_calendar%20_2014-2017.pdf" target="_blank">JKUAT HANDBOOK</a>
+                        </li>
+                        <li class="item-794">
+                            <a href="" target="_blank">JKUAT SCHOOLS</a>
+                        </li>
+                        <li class="item-653">
+                            <a href="" target="_blank">JKUAT DEPARTMENTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-center">
+            <div id="Mod106" class="ja-moduletable moduletable  clearfix">
+                <!-- <h3><span>Online Resources</span></h3> -->
+                <div class="ja-box-ct clearfix"></div>
+            </div>
+        </div>
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-right">
+            <div id="Mod107" class="ja-moduletable moduletable  clearfix">
+                <div class="ja-box-ct clearfix"></div>
+            </div>
+        </div>
+        <!-- SPOTLIGHT -->
+    </div>
+</div>
+</div>
+ <!--box wrap end-->
+<div class="copyright-content">
+    <div id="copyright" class="container">
+        <div class="col-xs-12 col-sm-8 col-md-6">
+            <p>Jomo Kenyatta University of Agriculture & Technology...ISO 9001:2008 Certified</p>
+            <p>Copyright &copy; 2015 Jomo Kenyatta University of Agricuture & Technology. All Rights Reserved.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-6 poweredbytxt"><a href="" target="_blank">Valentine Wacuka</a></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+</div>
+<!-- Footer ends-->
+
+   
+	
+       
+       
+        
+
+</div>
+</div>
+<div id="cboxOverlay" style="display: none;"></div>
+<div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+    <div id="cboxWrapper">
+        <div>
+            <div id="cboxTopLeft" style="float: left;"></div>
+            <div id="cboxTopCenter" style="float: left;"></div>
+            <div id="cboxTopRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxMiddleLeft" style="float: left;"></div>
+            <div id="cboxContent" style="float: left;">
+                <div id="cboxTitle" style="float: left;"></div>
+                <div id="cboxCurrent" style="float: left;"></div>
+                <button type="button" id="cboxPrevious"></button>
+                <button type="button" id="cboxNext"></button>
+                <button id="cboxSlideshow"></button>
+                <div id="cboxLoadingOverlay" style="float: left;"></div>
+                <div id="cboxLoadingGraphic" style="float: left;"></div>
+            </div><div id="cboxMiddleRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxBottomLeft" style="float: left;"></div>
+            <div id="cboxBottomCenter" style="float: left;"></div>
+            <div id="cboxBottomRight" style="float: left;"></div>
+        </div>
+    </div>
+    <div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div>
+</div>
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+
+</body>
+</html>

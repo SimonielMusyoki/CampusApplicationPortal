@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html class="fa-events-icons-ready">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="./includes/style.css" type="text/css">
+    <link rel="stylesheet" href="./includes/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./includes/font-awesome.min.css" type="text/css">
+    <style type="text/css">
+        .fancybox-skin{ 
+            left: 50%;
+            padding: 5px!important;
+            position: fixed!important;
+            top: 50%;
+            transform: translate(-50%, -50%); 
+            -moz-transform: translate(-50%, -50%); 
+            -webkit-transform: translate(-50%, -50%);
+        }
+    </style>
+    <!-- Scripts Starts Here -->
+
+    <script async="" src="./includes/analytics.js"></script>
+    <script type="text/javascript" async="" src="./includes/recaptcha__en.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var ROUTED_PATH = '';
+    </script>
+    <link rel="stylesheet" href="./includes/jquery-ui.css">
+    <link rel="stylesheet" href="./includes/colorbox.css">
+    <script src="./includes/jquery-1.10.2.js"></script>
+    <script src="./includes/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="./includes/jquery.fancybox.css">
+
+    <!-- Scripts Starts Here -->
+    <script type="text/javascript" src="./includes/jquery.fancybox.js"></script>
+    <script src="./includes/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="./includes/jquery.colorbox.js"></script>
+    <script type="text/javascript" src="./includes/validation.js"></script>
+    <script type="text/javascript">
+        $(function(){
+          $( 'form' ).tooltip({
+              position: { my: "right top", at: "right bottom" },
+              open: function(event, ui) {
+                $(ui.tooltip).siblings(".ui-tooltip").remove();
+              }
+        }).off("focusin,focusout,mouseover,mouseout");
+
+        $('body').on({mouseenter: function() {$(".ui-tooltip").hide();},mouseleave: function() {
+        $(".ui-tooltip").show();
+        }
+        },'#ui-datepicker-div');
+         
+          $("table.tbltab tr:odd").addClass("oddrow");
+          $("table.tbltab tr:even").addClass("evenrow");
+        });
+
+        $(function() {
+        $("#date" ).datepicker({
+                    dateFormat : 'yy-mm-dd',
+                    changeMonth : true,
+                    changeYear : true,
+                    yearRange: '-80y:c+nn',
+                    maxDate: '-1d',
+                    defaultDate: -11000
+                    
+            });
+        });
+        function confusepop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/help',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5
+                        });
+        }
+
+
+        function mpesapop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/mpesadetail',
+                            type: 'iframe',
+                            scolling: 'no',
+                             padding: 5,
+                           minHeight: 550
+                        });
+        }
+        function requirementpop(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/requriementsdocs',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5,
+                            minHeight: 370
+                           
+                        });
+        }
+        function howtoapply(){
+               $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/howtoapply',
+                            type: 'iframe',
+                            scolling: 'no',
+                            padding: 5,
+                            minHeight: 700
+                        });
+        }
+
+        function openmulticourse(uid){
+        	 $.fancybox.open({
+                            href: 'https://applications.ku.ac.ke/registration/public/index.php/index/multicourse/uid/'+uid,
+                                type: 'iframe',
+                                width: '700px',
+        			height:'400px',
+                                fitToView: false,
+                                autoSize: false
+
+                        });
+        	}
+                
+                function openselected(val){
+          $.fancybox.open({
+                                href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1',
+                                type: 'iframe',
+                                width: '700px',
+        			height:'400px',
+                                fitToView: false,
+                                autoSize: false
+
+                        });
+
+        }
+    </script>
+    <title>Jomo Kenyatta University of Agriculture & Technology</title>
+    <style type="text/css">.fancybox-margin{margin-right:15px;}</style>
+    <link href="./includes/840a321d95.css" media="all" rel="stylesheet">
+</head>
+
+
+<body style="">
+    <!-- Header Starts Here-->
+    <link href="./includes/css" rel="stylesheet" type="text/css"> 
+    <div id="wrapper">
+        <!--header start-->
+        <div class="header-con">
+            <div id="header" class="container">
+                <!-- TopNav -->
+                <!--<div id="topnav">
+                    <div class="moduletable">
+                        <div class="custom">
+                            <p><span style="font-size: 8pt;"><a href="#">NAIROBI CITY CAMPUS</a></span> &nbsp;&nbsp;&nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">GABA CAMPUS</a></span>&nbsp; &nbsp; &nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">KISUMU CAMPUS</a></span> &nbsp; &nbsp;&nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">ALUMNI</a></span>&nbsp; &nbsp; &nbsp;
+                                                <span style="font-size: 8pt;"><a href="#">AMECEA</a></span></p>
+                                        </div>
+                                </div>
+                        </div>--->
+                        <!-- Logo -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-7">
+                        <div id="logo">
+                            <a href="index.html">
+                                <img alt="Jomo Kenyatta University of Agriculture & Technology" src="./includes/logo-jkuat.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Search -->
+                    <div class="col-xs-12 col-sm-6 col-md-5">
+                        <div class="form_enquiry doyouneedhelp">
+                            <span class=" " style="color:#fff;cursor:pointer" onclick="confusepop()">Do you need help?</span> 
+                        </div>
+                        <div class="form_enquiry">
+                            <span class=" " style="color:#fff;cursor:pointer;" onclick="howtoapply()">How to Apply?</span> 
+                        </div>
+                    </div>
+                </div>
+                <div id="search">
+                    <div class="search"></div>
+                </div>
+            </div>
+        </div>
+        <!--header end-->
+        <!--navigation start-->
+        <div class="top-menucont">
+           <div class="container">
+                <div id="topmenu">
+                    <ul class="menu">
+                        <li class="item-101"><a href="index.html" target="_blank">Home</a></li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/" target="_blank">
+                                <img alt="Twitter" src="./includes/twitter.png">
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img alt="Facebook" src="./includes/fb.png">
+                            </a>
+                        </li>
+                        <li class="google-plus">  
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <img alt="Linkedin" src="./includes/linkedin.png">
+                            </a>
+                        </li>
+                        <li class="req-doc">  
+                            <a title="Requirements Docs" href="javascript:void(0)" disabled="disabled">
+                                <img alt="Linkedin" src="./includes/docs.png" onclick="requirementpop()">
+                            </a>
+                        </li>
+<!--<li class="mpesa-de">  <a title="mPesa Details" href="javascript:void(0)" disabled='disabled'>
+                                        <img alt="Linkedin" src="https://applications.ku.ac.ke/registration/public/images/m-pesa.png" onclick='mpesapop()'/></a></li> -->
+
+
+
+                                <!-- <li class="item-113 parent"><a href="#">Faculties</a></l_bi>
+<li class="item-102 current deeper parent">About 
+  Us
+                          </li>
+  <li class="item-124 parent"><a href="#">Library</a></li>
+  <li class="item-135 parent"><a href="#">Admissions</a></li>
+  <li class="item-141 parent"><a href="#">Departments</a></li>
+  <li class="item-155 parent"><a href="#">Facilities</a></li>
+  <li class="item-194"><a href="#">Information Portal</a></li>
+  <li class="item-194" style="padding-right: 0px;"><a href="#">Login</a></li>-->
+
+                    </ul>
+                    <div class="header-info">Current Session is MAY-2019</div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <!--navigation end-->
+
+        <div style="clear: both;"></div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-65414722-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <div class="mainContainer" style="width:100%; float:left; min-height:600px;">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+            <div class="row applicationformarea">
+          <!--Form Strat-->
+          <div class="left-menu col-xs-12 col-sm-4 col-md-4">
+            <ul>
+            <!--    <li>  <div class="">
+                    <a  class='callbacks' href="/index.php/index/enquiry"><span class="step">Step</span> <span class="number">0</span>Enquiry</a>    
+                </div></li>-->
+                <li>
+                    <a href="index.html" class="active">
+                        <span class="step">Step</span> 
+                        <span class="number">1</span>
+                        <span class="leftmenutxt">Personal Data</span>  
+                    </a>
+                </li>
+                <li>
+                    <a href="programmes.html">
+                        <span class="step">Step</span> 
+                        <span class="number">2</span>
+                        <span class="leftmenutxt">Programme</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="academic-profile.html">
+                        <span class="step">Step</span> 
+                        <span class="number">3</span>
+                        <span class="leftmenutxt">Academic Profile</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="additional-data.html">
+                        <span class="step">Step</span> 
+                        <span class="number">4</span>
+                        <span class="leftmenutxt">Additional Data</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="declaration.html">
+                        <span class="step">Step</span> 
+                        <span class="number">5</span>
+                        <span class="leftmenutxt">Declaration and Verification</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="payment.html">
+                        <span class="step">Step</span> 
+                        <span class="number">6</span>
+                        <span class="leftmenutxt">Payment</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html#" onclick="">
+                        <span class="step">Step</span> 
+                        <span class="number">7</span>
+                        <span class="leftmenutxt">Finish</span> 
+                    </a>
+                </li>
+                <li>
+                	<a href="https://applications.ku.ac.ke/registration/public/index.php/index/downloadpdfform">
+                		<span class="step">Step</span> 
+                		<span class="number">8</span>
+                		<span>Download Form</span>
+                	</a>
+                </li>
+            </ul>
+        </div> <!--left menu end-->
+        <div class="Section col-xs-12 col-sm-8 col-md-8 pull-right">
+            <style>
+                
+            </style>
+            <script type="text/javascript">
+                $(window).load(function() {
+                        });
+
+                    $(document).ready(function() {
+                            $("#retrievedata").click(function() {
+                                    $('#errorseacrh').empty();
+                                    $(".hide-show-form").slideToggle();
+                            });
+                                    var popup = getCookie("popup");
+                                    if (popup == "") {
+                                            setCookie("popup", 'opened', 30);
+                                            $.fancybox.open({
+                                                    href: '',
+                                                    type: 'iframe',
+                                                    scolling: 'no', 
+            					width: 733,                                       
+                                                    padding: 5
+                                            });
+                                    }
+                    });
+
+                    function reteriveapp() {
+                            $.fancybox.close();
+                            $(".hide-show-form").slideToggle();
+                            $(".hide-show-div #errorseacrh").html('');
+                            $(".errors").html('');
+                    }
+                    function enquiry() {
+                            $.fancybox.close();
+                            $.fancybox.open({
+                                    href: 'https://applications.ku.ac.ke/registration/public/index.php/index/enquiry',
+                                    type: 'iframe',
+                                    width: 500,
+                                    minHeight: 600
+
+            ,                        maxHeight: 600                });
+                    }
+
+                    function enqclose() {
+                            $.fancybox.close();
+                            window.location.href = "https://applications.ku.ac.ke/registration/public";
+                    }
+
+                    function setCookie(cname, cvalue, exdays) {
+                            var d = new Date();
+                            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                            var expires = "expires=" + d.toGMTString();
+                            document.cookie = cname + "=" + cvalue + "; " + expires;
+                    }
+
+                    function getCookie(cname) {
+                            var name = cname + "=";
+                            var ca = document.cookie.split(';');
+                            for (var i = 0; i < ca.length; i++) {
+                                    var c = ca[i];
+                                    while (c.charAt(0) == ' ')
+                                            c = c.substring(1);
+                                    if (c.indexOf(name) == 0) {
+                                            return c.substring(name.length, c.length);
+                                    }
+                            }
+                            return "";
+                    }
+
+                    function del_cookie(name) {
+                            document.cookie = name + '=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
+                    }
+                    function opencourse(val) {
+                            $.fancybox.open({
+                                    href: 'https://applications.ku.ac.ke/registration/public/index.php/index/ajaxdetail/progid/' + val + '/showcourse/1',
+                                    type: 'iframe',
+                                    width: '700px',
+            			height:'400px',
+                                    fitToView: false,
+                                    autoSize: false
+
+                            });
+                    }
+            	
+
+            </script>
+
+            <style type="text/css">
+                .g-recaptcha > div {
+                width: auto!important;
+                margin-top: 10px;
+                display: inline-block;
+            }
+            </style>
+            <div class="form-container clearfix responsive-form-container">
+                <div class="right-side">
+                    <div class="heading-main">
+                        <h2>Personal Data</h2>
+                    </div>
+                    <div class="hide-show-div">
+                        If you have a pending application <a href="javascript:void(0);" id="retrievedata">click here</a> to retrieve your application
+                        <div id="errorseacrh" class="error"></div>
+                        <div class="hide-show-form clearfix">
+                            <div class="col-xs-12 col-sm-12 col-md-5 formrowpadding">
+                                <span>
+                                    <label>Surname:</label> 
+                                    <input type="text" id="search_surname" title="Please enter the surname" name="search_surname" class="input">
+                                </span>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-7 formrowpadding">
+                                <span>
+                                    <label>Mobile No:</label> 
+                                    <select name="countrycode" id="countrycode" class="countrycombo">
+                                        <option value="114" selected="selected">(+254) Kenya</option>
+                                        <option value="226">(+255) Tanzania</option>
+                                        <option value="228">(+256) Uganda</option>
+                                        <option value="25">(+257) Burundi</option>
+                                        <option value="191">(+250) Rwanda</option>
+                                        <option value="41">(+236) Central African Republic</option>
+                                        <option value="56">(+253) Djibouti</option>
+                                        <option value="65">(+291) Eritrea</option>
+                                        <option value="67">(+251) Ethiopia</option>
+                                        <option value="40">(+243) Democratic Republic of the Congo</option>
+                                        <option value="205">(+252) Somalia</option>
+                                        <option value="247">(+211) South Sudan</option>
+                                        <option value="195">(+249) Sudan</option>
+                                        <option value="3">(+93) Afghanistan</option>
+                                        <option value="6">(+355) Albania</option>
+                                        <option value="60">(+213) Algeria</option>
+                                        <option value="12">(+1684) American Samoa</option>
+                                        <option value="1">(+376) Andorra</option>
+                                        <option value="9">(+244) Angola</option>
+                                        <option value="5">(+1264) Anguilla</option>
+                                        <option value="4">(+1268) Antigua And Barbuda</option>
+                                        <option value="11">(+54) Argentina</option>
+                                        <option value="7">(+374) Armenia</option>
+                                        <option value="15">(+297) Aruba</option>
+                                        <option value="14">(+61) Australia</option>
+                                        <option value="13">(+43) Austria</option>
+                                        <option value="17">(+994) Azerbaijan</option>
+                                        <option value="32">(+1242) Bahamas</option>
+                                        <option value="24">(+973) Bahrain</option>
+                                        <option value="20">(+880) Bangladesh</option>
+                                        <option value="19">(+1246) Barbados</option>
+                                        <option value="36">(+375) Belarus</option>
+                                        <option value="21">(+32) Belgium</option>
+                                        <option value="37">(+501) Belize</option>
+                                        <option value="26">(+229) Benin</option>
+                                        <option value="28">(+1441) Bermuda</option>
+                                        <option value="33">(+975) Bhutan</option>
+                                        <option value="30">(+591) Bolivia</option>
+                                        <option value="18">(+387) Bosnia And Herzegovina</option>
+                                        <option value="35">(+267) Botswana</option>
+                                        <option value="31">(+55) Brazil</option>
+                                        <option value="105">(+246) British Indian Ocean Territory</option>
+                                        <option value="29">(+673) Brunei Darussalam</option>
+                                        <option value="23">(+359) Bulgaria</option>
+                                        <option value="22">(+226) Burkina Faso</option>
+                                        <option value="116">(+855) Cambodia</option>
+                                        <option value="46">(+237) Cameroon</option>
+                                        <option value="38">(+1) Canada</option>
+                                        <option value="51">(+238) Cape Verde</option>
+                                        <option value="123">(+1345) Cayman Islands</option>
+                                        <option value="212">(+235) Chad</option>
+                                        <option value="45">(+56) Chile</option>
+                                        <option value="47">(+86) China</option>
+                                        <option value="39">(+672) Cocos (Keeling) Islands</option>
+                                        <option value="48">(+57) Colombia</option>
+                                        <option value="118">(+269) Comoros</option>
+                                        <option value="44">(+682) Cook Islands</option>
+                                        <option value="49">(+506) Costa Rica</option>
+                                        <option value="43">(+225) Côte D'Ivoire</option>
+                                        <option value="96">(+385) Croatia</option>
+                                        <option value="50">(+53) Cuba</option>
+                                        <option value="53">(+357) Cyprus</option>
+                                        <option value="54">(+420) Czech Republic</option>
+                                        <option value="57">(+45) Denmark</option>
+                                        <option value="58">(+1767) Dominica</option>
+                                        <option value="59">(+1809) Dominican Republic</option>
+                                        <option value="61">(+593) Ecuador</option>
+                                        <option value="63">(+20) Egypt</option>
+                                        <option value="208">(+503) El Salvador</option>
+                                        <option value="86">(+240) Equatorial Guinea</option>
+                                        <option value="62">(+372) Estonia</option>
+                                        <option value="70">(+500) Falkland Islands (Malvinas)</option>
+                                        <option value="72">(+298) Faroe Islands</option>
+                                        <option value="69">(+679) Fiji</option>
+                                        <option value="68">(+358) Finland</option>
+                                        <option value="73">(+33) France</option>
+                                        <option value="78">(+594) French Guiana</option>
+                                        <option value="174">(+689) French Polynesia</option>
+                                        <option value="74">(+241) Gabon</option>
+                                        <option value="83">(+220) Gambia</option>
+                                        <option value="77">(+995) Georgia</option>
+                                        <option value="55">(+49) Germany</option>
+                                        <option value="80">(+233) Ghana</option>
+                                        <option value="81">(+350) Gibraltar</option>
+                                        <option value="87">(+30) Greece</option>
+                                        <option value="82">(+299) Greenland</option>
+                                        <option value="76">(+1473) Grenada</option>
+                                        <option value="85">(+590) Guadeloupe</option>
+                                        <option value="90">(+1671) Guam</option>
+                                        <option value="89">(+502) Guatemala</option>
+                                        <option value="84">(+224) Guinea</option>
+                                        <option value="91">(+245) Guinea-Bissau</option>
+                                        <option value="92">(+592) Guyana</option>
+                                        <option value="97">(+509) Haiti</option>
+                                        <option value="233">(+39) Holy See (Vatican City State)</option>
+                                        <option value="95">(+504) Honduras</option>
+                                        <option value="93">(+852) Hong Kong</option>
+                                        <option value="98">(+36) Hungary</option>
+                                        <option value="108">(+354) Iceland</option>
+                                        <option value="104">(+91) India</option>
+                                        <option value="100">(+62) Indonesia</option>
+                                        <option value="107">(+98) Iran, Islamic Republic Of</option>
+                                        <option value="106">(+964) Iraq</option>
+                                        <option value="101">(+353) Ireland</option>
+                                        <option value="102">(+972) Israel</option>
+                                        <option value="111">(+1876) Jamaica</option>
+                                        <option value="113">(+81) Japan</option>
+                                        <option value="112">(+962) Jordan</option>
+                                        <option value="124">(+7) Kazakhstan</option>
+                                        <option value="117">(+686) Kiribati</option>
+                                        <option value="120">(+850) Korea, Democratic People's Republic Of</option>
+                                        <option value="121">(+82) Korea, Republic Of</option>
+                                        <option value="122">(+965) Kuwait</option>
+                                        <option value="115">(+996) Kyrgyzstan</option>
+                                        <option value="125">(+856) Lao People's Democratic Republic</option>
+                                        <option value="134">(+371) Latvia</option>
+                                        <option value="126">(+961) Lebanon</option>
+                                        <option value="131">(+266) Lesotho</option>
+                                        <option value="130">(+231) Liberia</option>
+                                        <option value="135">(+218) Libyan Arab Jamahiriya</option>
+                                        <option value="128">(+423) Liechtenstein</option>
+                                        <option value="132">(+370) Lithuania</option>
+                                        <option value="133">(+352) Luxembourg</option>
+                                        <option value="147">(+853) Macao</option>
+                                        <option value="143">(+389) Macedonia, The Former Yugoslav Republic Of</option>
+                                        <option value="141">(+261) Madagascar</option>
+                                        <option value="155">(+265) Malawi</option>
+                                        <option value="157">(+60) Malaysia</option>
+                                        <option value="154">(+960) Maldives</option>
+                                        <option value="144">(+223) Mali</option>
+                                        <option value="152">(+356) Malta</option>
+                                        <option value="142">(+692) Marshall Islands</option>
+                                        <option value="149">(+596) Martinique</option>
+                                        <option value="150">(+222) Mauritania</option>
+                                        <option value="153">(+230) Mauritius</option>
+                                        <option value="156">(+52) Mexico</option>
+                                        <option value="71">(+691) Micronesia, Federated States Of</option>
+                                        <option value="138">(+373) Moldova, Republic Of</option>
+                                        <option value="137">(+377) Monaco</option>
+                                        <option value="146">(+976) Mongolia</option>
+                                        <option value="151">(+1664) Montserrat</option>
+                                        <option value="136">(+212) Morocco</option>
+                                        <option value="158">(+258) Mozambique</option>
+                                        <option value="145">(+95) Myanmar</option>
+                                        <option value="159">(+264) Namibia</option>
+                                        <option value="168">(+674) Nauru</option>
+                                        <option value="167">(+977) Nepal</option>
+                                        <option value="165">(+31) Netherlands</option>
+                                        <option value="8">(+599) Netherlands Antilles</option>
+                                        <option value="160">(+687) New Caledonia</option>
+                                        <option value="170">(+64) New Zealand</option>
+                                        <option value="164">(+505) Nicaragua</option>
+                                        <option value="161">(+227) Niger</option>
+                                        <option value="163">(+234) Nigeria</option>
+                                        <option value="169">(+683) Niue</option>
+                                        <option value="148">(+1670) Northern Mariana Islands</option>
+                                        <option value="166">(+47) Norway</option>
+                                        <option value="171">(+968) Oman</option>
+                                        <option value="177">(+92) Pakistan</option>
+                                        <option value="184">(+680) Palau</option>
+                                        <option value="182">(+970) Palestinian Territory, Occupied</option>
+                                        <option value="172">(+507) Panama</option>
+                                        <option value="175">(+675) Papua New Guinea</option>
+                                        <option value="185">(+595) Paraguay</option>
+                                        <option value="173">(+51) Peru</option>
+                                        <option value="176">(+63) Philippines</option>
+                                        <option value="178">(+48) Poland</option>
+                                        <option value="183">(+351) Portugal</option>
+                                        <option value="181">(+1787) Puerto Rico</option>
+                                        <option value="186">(+974) Qatar</option>
+                                        <option value="187">(+262) Réunion</option>
+                                        <option value="188">(+40) Romania</option>
+                                        <option value="190">(+70) Russian Federation</option>
+                                        <option value="198">(+290) Saint Helena</option>
+                                        <option value="119">(+1869) Saint Kitts And Nevis</option>
+                                        <option value="127">(+1758) Saint Lucia</option>
+                                        <option value="179">(+508) Saint Pierre And Miquelon</option>
+                                        <option value="234">(+1784) Saint Vincent And The Grenadines</option>
+                                        <option value="241">(+684) Samoa</option>
+                                        <option value="203">(+378) San Marino</option>
+                                        <option value="207">(+239) Sao Tome And Principe</option>
+                                        <option value="192">(+966) Saudi Arabia</option>
+                                        <option value="204">(+221) Senegal</option>
+                                        <option value="194">(+248) Seychelles</option>
+                                        <option value="202">(+232) Sierra Leone</option>
+                                        <option value="197">(+65) Singapore</option>
+                                        <option value="201">(+421) Slovakia</option>
+                                        <option value="199">(+386) Slovenia</option>
+                                        <option value="193">(+677) Solomon Islands</option>
+                                        <option value="244">(+27) South Africa</option>
+                                        <option value="66">(+34) Spain</option>
+                                        <option value="129">(+94) Sri Lanka</option>
+                                        <option value="206">(+597) Suriname</option>
+                                        <option value="210">(+268) Swaziland</option>
+                                        <option value="196">(+46) Sweden</option>
+                                        <option value="99">(+41) Switzerland</option>
+                                        <option value="209">(+963) Syrian Arab Republic</option>
+                                        <option value="225">(+886) Taiwan</option>
+                                        <option value="216">(+992) Tajikistan</option>
+                                        <option value="215">(+66) Thailand</option>
+                                        <option value="218">(+670) Timor-Leste</option>
+                                        <option value="214">(+228) Togo</option>
+                                        <option value="217">(+690) Tokelau</option>
+                                        <option value="221">(+676) Tonga</option>
+                                        <option value="223">(+1868) Trinidad And Tobago</option>
+                                        <option value="220">(+216) Tunisia</option>
+                                        <option value="222">(+90) Turkey</option>
+                                        <option value="219">(+7370) Turkmenistan</option>
+                                        <option value="211">(+1649) Turks And Caicos Islands</option>
+                                        <option value="224">(+688) Tuvalu</option>
+                                        <option value="227">(+380) Ukraine</option>
+                                        <option value="2">(+971) United Arab Emirates</option>
+                                        <option value="75">(+44) United Kingdom</option>
+                                        <option value="231">(+598) Uruguay</option>
+                                        <option value="232">(+998) Uzbekistan</option>
+                                        <option value="239">(+678) Vanuatu</option>
+                                        <option value="235">(+58) Venezuela</option>
+                                        <option value="238">(+84) Viet Nam</option>
+                                        <option value="236">(+1284) Virgin Islands, British</option>
+                                        <option value="237">(+1340) Virgin Islands, U.S.</option>
+                                        <option value="240">(+681) Wallis And Futuna</option>
+                                        <option value="242">(+967) Yemen</option>
+                                        <option value="245">(+260) Zambia</option>
+                                        <option value="246">(+263) Zimbabwe</option>
+                                    </select>
+                                    <input type="text" id="search_mobile" title="Please enter the mobile no" name="search_mobile" class="input">
+                                </span>
+                            </div>
+                            <div class="col-md-12 text-right hideareabtns">
+                                <input type="button" id="fetchdata" value="Submit" class="hidesectionbtns"> 
+                                <input type="button" value="Cancel" id="newdata" class="hidesectionbtns">
+                            </div>
+                        </div>
+                    </div>
+                    <form name="personaldetails" method="post" action="index.html" class="formpadding bootstraptable">
+                        <div class="errors" style="padding-left:10px;"></div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 formrowpadding">
+                                <label class="heading">Surname*</label>
+                                <input type="text" name="firstname" id="firstname" value="" class="validate[required]" maxlength="20" title="Please enter the surname">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 formrowpadding">
+                                <label class="heading">Other Name*</label>
+                                <input type="text" name="lastname" id="lastname" value="" class="validate[required]" maxlength="20" title="Please enter the othername">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 formrowpadding">
+                                <label class="heading">Passport/National Id/Birth Certificate</label>
+                                <input type="text" name="passport" id="passport" value="" class="validate[required]" maxlength="20" title="Optional: Please enter the passport no">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 formrowpadding">
+                                <label class="heading" style="width:auto">Date of Birth* </label>(YYYY-MM-DD)
+                                <input type="text" name="dob" id="date" value="" class="validate[required] date hasDatepicker" readonly="readonly" title="Please enter the DOB date">	
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <label class="heading">Current Address* </label><br>
+                                <textarea name="address" id="address" cols="33" class="address" title="Please enter the current address" maxlength="300" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 telnumber formrowpadding telephone-element">
+                                <label class="heading">Telephone/Mobile No.*</label><br>
+                                <select name="countrycode" id="countrycode" class="countrycombo" title="Please select the country code">
+                                    <option value="114" selected="selected">(+254) Kenya</option>
+                                    <option value="226">(+255) Tanzania</option>
+                                    <option value="228">(+256) Uganda</option>
+                                    <option value="25">(+257) Burundi</option>
+                                    <option value="191">(+250) Rwanda</option>
+                                    <option value="41">(+236) Central African Republic</option>
+                                    <option value="56">(+253) Djibouti</option>
+                                    <option value="65">(+291) Eritrea</option>
+                                    <option value="67">(+251) Ethiopia</option>
+                                    <option value="40">(+243) Democratic Republic of the Congo</option>
+                                    <option value="205">(+252) Somalia</option>
+                                    <option value="247">(+211) South Sudan</option>
+                                    <option value="195">(+249) Sudan</option>
+                                    <option value="3">(+93) Afghanistan</option>
+                                    <option value="6">(+355) Albania</option>
+                                    <option value="60">(+213) Algeria</option>
+                                    <option value="12">(+1684) American Samoa</option>
+                                    <option value="1">(+376) Andorra</option>
+                                    <option value="9">(+244) Angola</option>
+                                    <option value="5">(+1264) Anguilla</option>
+                                    <option value="4">(+1268) Antigua And Barbuda</option>
+                                    <option value="11">(+54) Argentina</option>
+                                    <option value="7">(+374) Armenia</option>
+                                    <option value="15">(+297) Aruba</option>
+                                    <option value="14">(+61) Australia</option>
+                                    <option value="13">(+43) Austria</option>
+                                    <option value="17">(+994) Azerbaijan</option>
+                                    <option value="32">(+1242) Bahamas</option>
+                                    <option value="24">(+973) Bahrain</option>
+                                    <option value="20">(+880) Bangladesh</option>
+                                    <option value="19">(+1246) Barbados</option>
+                                    <option value="36">(+375) Belarus</option>
+                                    <option value="21">(+32) Belgium</option>
+                                    <option value="37">(+501) Belize</option>
+                                    <option value="26">(+229) Benin</option>
+                                    <option value="28">(+1441) Bermuda</option>
+                                    <option value="33">(+975) Bhutan</option>
+                                    <option value="30">(+591) Bolivia</option>
+                                    <option value="18">(+387) Bosnia And Herzegovina</option>
+                                    <option value="35">(+267) Botswana</option>
+                                    <option value="31">(+55) Brazil</option>
+                                    <option value="105">(+246) British Indian Ocean Territory</option>
+                                    <option value="29">(+673) Brunei Darussalam</option>
+                                    <option value="23">(+359) Bulgaria</option>
+                                    <option value="22">(+226) Burkina Faso</option>
+                                    <option value="116">(+855) Cambodia</option>
+                                    <option value="46">(+237) Cameroon</option>
+                                    <option value="38">(+1) Canada</option>
+                                    <option value="51">(+238) Cape Verde</option>
+                                    <option value="123">(+1345) Cayman Islands</option>
+                                    <option value="212">(+235) Chad</option>
+                                    <option value="45">(+56) Chile</option>
+                                    <option value="47">(+86) China</option>
+                                    <option value="39">(+672) Cocos (Keeling) Islands</option>
+                                    <option value="48">(+57) Colombia</option>
+                                    <option value="118">(+269) Comoros</option>
+                                    <option value="44">(+682) Cook Islands</option>
+                                    <option value="49">(+506) Costa Rica</option>
+                                    <option value="43">(+225) Côte D'Ivoire</option>
+                                    <option value="96">(+385) Croatia</option>
+                                    <option value="50">(+53) Cuba</option>
+                                    <option value="53">(+357) Cyprus</option>
+                                    <option value="54">(+420) Czech Republic</option>
+                                    <option value="57">(+45) Denmark</option>
+                                    <option value="58">(+1767) Dominica</option>
+                                    <option value="59">(+1809) Dominican Republic</option>
+                                    <option value="61">(+593) Ecuador</option>
+                                    <option value="63">(+20) Egypt</option>
+                                    <option value="208">(+503) El Salvador</option>
+                                    <option value="86">(+240) Equatorial Guinea</option>
+                                    <option value="62">(+372) Estonia</option>
+                                    <option value="70">(+500) Falkland Islands (Malvinas)</option>
+                                    <option value="72">(+298) Faroe Islands</option>
+                                    <option value="69">(+679) Fiji</option>
+                                    <option value="68">(+358) Finland</option>
+                                    <option value="73">(+33) France</option>
+                                    <option value="78">(+594) French Guiana</option>
+                                    <option value="174">(+689) French Polynesia</option>
+                                    <option value="74">(+241) Gabon</option>
+                                    <option value="83">(+220) Gambia</option>
+                                    <option value="77">(+995) Georgia</option>
+                                    <option value="55">(+49) Germany</option>
+                                    <option value="80">(+233) Ghana</option>
+                                    <option value="81">(+350) Gibraltar</option>
+                                    <option value="87">(+30) Greece</option>
+                                    <option value="82">(+299) Greenland</option>
+                                    <option value="76">(+1473) Grenada</option>
+                                    <option value="85">(+590) Guadeloupe</option>
+                                    <option value="90">(+1671) Guam</option>
+                                    <option value="89">(+502) Guatemala</option>
+                                    <option value="84">(+224) Guinea</option>
+                                    <option value="91">(+245) Guinea-Bissau</option>
+                                    <option value="92">(+592) Guyana</option>
+                                    <option value="97">(+509) Haiti</option>
+                                    <option value="233">(+39) Holy See (Vatican City State)</option>
+                                    <option value="95">(+504) Honduras</option>
+                                    <option value="93">(+852) Hong Kong</option>
+                                    <option value="98">(+36) Hungary</option>
+                                    <option value="108">(+354) Iceland</option>
+                                    <option value="104">(+91) India</option>
+                                    <option value="100">(+62) Indonesia</option>
+                                    <option value="107">(+98) Iran, Islamic Republic Of</option>
+                                    <option value="106">(+964) Iraq</option>
+                                    <option value="101">(+353) Ireland</option>
+                                    <option value="102">(+972) Israel</option>
+                                    <option value="111">(+1876) Jamaica</option>
+                                    <option value="113">(+81) Japan</option>
+                                    <option value="112">(+962) Jordan</option>
+                                    <option value="124">(+7) Kazakhstan</option>
+                                    <option value="117">(+686) Kiribati</option>
+                                    <option value="120">(+850) Korea, Democratic People's Republic Of</option>
+                                    <option value="121">(+82) Korea, Republic Of</option>
+                                    <option value="122">(+965) Kuwait</option>
+                                    <option value="115">(+996) Kyrgyzstan</option>
+                                    <option value="125">(+856) Lao People's Democratic Republic</option>
+                                    <option value="134">(+371) Latvia</option>
+                                    <option value="126">(+961) Lebanon</option>
+                                    <option value="131">(+266) Lesotho</option>
+                                    <option value="130">(+231) Liberia</option>
+                                    <option value="135">(+218) Libyan Arab Jamahiriya</option>
+                                    <option value="128">(+423) Liechtenstein</option>
+                                    <option value="132">(+370) Lithuania</option>
+                                    <option value="133">(+352) Luxembourg</option>
+                                    <option value="147">(+853) Macao</option>
+                                    <option value="143">(+389) Macedonia, The Former Yugoslav Republic Of</option>
+                                    <option value="141">(+261) Madagascar</option>
+                                    <option value="155">(+265) Malawi</option>
+                                    <option value="157">(+60) Malaysia</option>
+                                    <option value="154">(+960) Maldives</option>
+                                    <option value="144">(+223) Mali</option>
+                                    <option value="152">(+356) Malta</option>
+                                    <option value="142">(+692) Marshall Islands</option>
+                                    <option value="149">(+596) Martinique</option>
+                                    <option value="150">(+222) Mauritania</option>
+                                    <option value="153">(+230) Mauritius</option>
+                                    <option value="156">(+52) Mexico</option>
+                                    <option value="71">(+691) Micronesia, Federated States Of</option>
+                                    <option value="138">(+373) Moldova, Republic Of</option>
+                                    <option value="137">(+377) Monaco</option>
+                                    <option value="146">(+976) Mongolia</option>
+                                    <option value="151">(+1664) Montserrat</option>
+                                    <option value="136">(+212) Morocco</option>
+                                    <option value="158">(+258) Mozambique</option>
+                                    <option value="145">(+95) Myanmar</option>
+                                    <option value="159">(+264) Namibia</option>
+                                    <option value="168">(+674) Nauru</option>
+                                    <option value="167">(+977) Nepal</option>
+                                    <option value="165">(+31) Netherlands</option>
+                                    <option value="8">(+599) Netherlands Antilles</option>
+                                    <option value="160">(+687) New Caledonia</option>
+                                    <option value="170">(+64) New Zealand</option>
+                                    <option value="164">(+505) Nicaragua</option>
+                                    <option value="161">(+227) Niger</option>
+                                    <option value="163">(+234) Nigeria</option>
+                                    <option value="169">(+683) Niue</option>
+                                    <option value="148">(+1670) Northern Mariana Islands</option>
+                                    <option value="166">(+47) Norway</option>
+                                    <option value="171">(+968) Oman</option>
+                                    <option value="177">(+92) Pakistan</option>
+                                    <option value="184">(+680) Palau</option>
+                                    <option value="182">(+970) Palestinian Territory, Occupied</option>
+                                    <option value="172">(+507) Panama</option>
+                                    <option value="175">(+675) Papua New Guinea</option>
+                                    <option value="185">(+595) Paraguay</option>
+                                    <option value="173">(+51) Peru</option>
+                                    <option value="176">(+63) Philippines</option>
+                                    <option value="178">(+48) Poland</option>
+                                    <option value="183">(+351) Portugal</option>
+                                    <option value="181">(+1787) Puerto Rico</option>
+                                    <option value="186">(+974) Qatar</option>
+                                    <option value="187">(+262) Réunion</option>
+                                    <option value="188">(+40) Romania</option>
+                                    <option value="190">(+70) Russian Federation</option>
+                                    <option value="198">(+290) Saint Helena</option>
+                                    <option value="119">(+1869) Saint Kitts And Nevis</option>
+                                    <option value="127">(+1758) Saint Lucia</option>
+                                    <option value="179">(+508) Saint Pierre And Miquelon</option>
+                                    <option value="234">(+1784) Saint Vincent And The Grenadines</option>
+                                    <option value="241">(+684) Samoa</option>
+                                    <option value="203">(+378) San Marino</option>
+                                    <option value="207">(+239) Sao Tome And Principe</option>
+                                    <option value="192">(+966) Saudi Arabia</option>
+                                    <option value="204">(+221) Senegal</option>
+                                    <option value="194">(+248) Seychelles</option>
+                                    <option value="202">(+232) Sierra Leone</option>
+                                    <option value="197">(+65) Singapore</option>
+                                    <option value="201">(+421) Slovakia</option>
+                                    <option value="199">(+386) Slovenia</option>
+                                    <option value="193">(+677) Solomon Islands</option>
+                                    <option value="244">(+27) South Africa</option>
+                                    <option value="66">(+34) Spain</option>
+                                    <option value="129">(+94) Sri Lanka</option>
+                                    <option value="206">(+597) Suriname</option>
+                                    <option value="210">(+268) Swaziland</option>
+                                    <option value="196">(+46) Sweden</option>
+                                    <option value="99">(+41) Switzerland</option>
+                                    <option value="209">(+963) Syrian Arab Republic</option>
+                                    <option value="225">(+886) Taiwan</option>
+                                    <option value="216">(+992) Tajikistan</option>
+                                    <option value="215">(+66) Thailand</option>
+                                    <option value="218">(+670) Timor-Leste</option>
+                                    <option value="214">(+228) Togo</option>
+                                    <option value="217">(+690) Tokelau</option>
+                                    <option value="221">(+676) Tonga</option>
+                                    <option value="223">(+1868) Trinidad And Tobago</option>
+                                    <option value="220">(+216) Tunisia</option>
+                                    <option value="222">(+90) Turkey</option>
+                                    <option value="219">(+7370) Turkmenistan</option>
+                                    <option value="211">(+1649) Turks And Caicos Islands</option>
+                                    <option value="224">(+688) Tuvalu</option>
+                                    <option value="227">(+380) Ukraine</option>
+                                    <option value="2">(+971) United Arab Emirates</option>
+                                    <option value="75">(+44) United Kingdom</option>
+                                    <option value="231">(+598) Uruguay</option>
+                                    <option value="232">(+998) Uzbekistan</option>
+                                    <option value="239">(+678) Vanuatu</option>
+                                    <option value="235">(+58) Venezuela</option>
+                                    <option value="238">(+84) Viet Nam</option>
+                                    <option value="236">(+1284) Virgin Islands, British</option>
+                                    <option value="237">(+1340) Virgin Islands, U.S.</option>
+                                    <option value="240">(+681) Wallis And Futuna</option>
+                                    <option value="242">(+967) Yemen</option>
+                                    <option value="245">(+260) Zambia</option>
+                                    <option value="246">(+263) Zimbabwe</option>
+                                </select>
+                                <!-- <input type="text" name="areacode" id="areacode" class="small-textbox" maxlength="3" value=""  />--->
+                                <input type="text" name="mobileno" id="phone1" title="Please enter the mobile no" class="small-textbox smallmobilenufield" maxlength="10" value="">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 emailid formrowpadding">
+                                <label class="heading">Email address *</label><br>
+                                <input type="text" name="emailid" id="emailid" value="" class="validate[required]" maxlength="100" title="Please enter the email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 formrowpadding">
+                                <label class="heading">Gender*</label>
+                                <div class="genderradio">
+                                    <input type="radio" title="Please select at least one gender" name="gender" value="male" id="e" checked="">
+                                    <label for="e">&nbsp;Male</label>&nbsp;
+                                    <input type="radio" title="Please select at least one gender" name="gender" value="female" id="f">
+                                    <label for="f">&nbsp;Female</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 formrowpadding">
+                                <label class="heading">Marital Status*</label>
+                                <div class="mstatusradio">
+                                    <input type="radio" title="Please select at least one marital status" name="marital_status" value="single" id="single" checked="">
+                                    <label for="f">&nbsp;Single</label>&nbsp;
+                                    <input type="radio" title="Please select at least one marital status" name="marital_status" value="married" id="married">
+                                    <label for="g">&nbsp;Married</label>
+                                </div> 	                               
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <label class="heading">Do you have any disability?*</label>
+                                <div class="genderradio">
+                                    <input type="radio" id="h" title="Please select at least one disability" name="disability" value="Yes">&nbsp;<label for="h">&nbsp;Yes</label>&nbsp;
+                                    <input type="radio" title="Please select at least one disability" name="disability" value="No" id="i" checked="">&nbsp;<label for="i">&nbsp;No</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 citizenship">
+                                <label class="heading">Citizenship/ Country*</label><br>
+                                <select name="country" id="country" class="validate[required]" title="Please select the country">
+                                    <option value="254">Kenya</option>
+                                    <option value="255">Tanzania</option>
+                                    <option value="256">Uganda</option>
+                                    <option value="257">Burundi</option>
+                                    <option value="250">Rwanda</option>
+                                    <option value="236">Central African Republic</option>
+                                    <option value="253">Djibouti</option>
+                                    <option value="291">Eritrea</option>
+                                    <option value="251">Ethiopia</option>
+                                    <option value="242">Republic of Congo</option>
+                                    <option value="252">Somalia</option>
+                                    <option value="211">South Sudan</option>
+                                    <option value="249">Sudan</option>
+                                    <option value="93">Afghanistan</option>
+                                    <option value="355">Albania</option>
+                                    <option value="213">Algeria</option>
+                                    <option value="1684">American Samoa</option>
+                                    <option value="376">Andorra</option>
+                                    <option value="244">Angola</option>
+                                    <option value="1264">Anguilla</option>
+                                    <option value="1268">Antigua And Barbuda</option>
+                                    <option value="54">Argentina</option>
+                                    <option value="374">Armenia</option>
+                                    <option value="297">Aruba</option>
+                                    <option value="61">Australia</option>
+                                    <option value="43">Austria</option>
+                                    <option value="994">Azerbaijan</option>
+                                    <option value="1242">Bahamas</option>
+                                    <option value="973">Bahrain</option>
+                                    <option value="880">Bangladesh</option>
+                                    <option value="1246">Barbados</option>
+                                    <option value="375">Belarus</option>
+                                    <option value="32">Belgium</option>
+                                    <option value="501">Belize</option>
+                                    <option value="229">Benin</option>
+                                    <option value="1441">Bermuda</option>
+                                    <option value="975">Bhutan</option>
+                                    <option value="591">Bolivia</option>
+                                    <option value="387">Bosnia And Herzegovina</option>
+                                    <option value="267">Botswana</option>
+                                    <option value="55">Brazil</option>
+                                    <option value="246">British Indian Ocean Territory</option>
+                                    <option value="673">Brunei Darussalam</option>
+                                    <option value="359">Bulgaria</option>
+                                    <option value="226">Burkina Faso</option>
+                                    <option value="855">Cambodia</option>
+                                    <option value="237">Cameroon</option>
+                                    <option value="1">Canada</option>
+                                    <option value="238">Cape Verde</option>
+                                    <option value="1345">Cayman Islands</option>
+                                    <option value="235">Chad</option>
+                                    <option value="56">Chile</option>
+                                    <option value="86">China</option>
+                                    <option value="672">Cocos (Keeling) Islands</option>
+                                    <option value="57">Colombia</option>
+                                    <option value="269">Comoros</option>
+                                    <option value="682">Cook Islands</option>
+                                    <option value="506">Costa Rica</option>
+                                    <option value="225">Côte D'Ivoire</option>
+                                    <option value="385">Croatia</option>
+                                    <option value="53">Cuba</option>
+                                    <option value="357">Cyprus</option>
+                                    <option value="420">Czech Republic</option>
+                                    <option value="243">Democratic Republic of the Congo
+                                </option>
+                                    <option value="45">Denmark</option>
+                                    <option value="1767">Dominica</option>
+                                    <option value="1809">Dominican Republic</option>
+                                    <option value="593">Ecuador</option>
+                                    <option value="20">Egypt</option>
+                                    <option value="503">El Salvador</option>
+                                    <option value="240">Equatorial Guinea</option>
+                                    <option value="372">Estonia</option>
+                                    <option value="500">Falkland Islands (Malvinas)</option>
+                                    <option value="298">Faroe Islands</option>
+                                    <option value="679">Fiji</option>
+                                    <option value="358">Finland</option>
+                                    <option value="33">France</option>
+                                    <option value="594">French Guiana</option>
+                                    <option value="689">French Polynesia</option>
+                                    <option value="241">Gabon</option>
+                                    <option value="220">Gambia</option>
+                                    <option value="995">Georgia</option>
+                                    <option value="49">Germany</option>
+                                    <option value="233">Ghana</option>
+                                    <option value="350">Gibraltar</option>
+                                    <option value="30">Greece</option>
+                                    <option value="299">Greenland</option>
+                                    <option value="1473">Grenada</option>
+                                    <option value="590">Guadeloupe</option>
+                                    <option value="1671">Guam</option>
+                                    <option value="502">Guatemala</option>
+                                    <option value="224">Guinea</option>
+                                    <option value="245">Guinea-Bissau</option>
+                                    <option value="592">Guyana</option>
+                                    <option value="509">Haiti</option>
+                                    <option value="39">Holy See (Vatican City State)</option>
+                                    <option value="504">Honduras</option>
+                                    <option value="852">Hong Kong</option>
+                                    <option value="36">Hungary</option>
+                                    <option value="354">Iceland</option>
+                                    <option value="91">India</option>
+                                    <option value="62">Indonesia</option>
+                                    <option value="98">Iran, Islamic Republic Of</option>
+                                    <option value="964">Iraq</option>
+                                    <option value="353">Ireland</option>
+                                    <option value="972">Israel</option>
+                                    <option value="1876">Jamaica</option>
+                                    <option value="81">Japan</option>
+                                    <option value="962">Jordan</option>
+                                    <option value="7">Kazakhstan</option>
+                                    <option value="686">Kiribati</option>
+                                    <option value="850">Korea, Democratic People's Republic Of</option>
+                                    <option value="82">Korea, Republic Of</option>
+                                    <option value="965">Kuwait</option>
+                                    <option value="996">Kyrgyzstan</option>
+                                    <option value="856">Lao People's Democratic Republic</option>
+                                    <option value="371">Latvia</option>
+                                    <option value="961">Lebanon</option>
+                                    <option value="266">Lesotho</option>
+                                    <option value="231">Liberia</option>
+                                    <option value="218">Libyan Arab Jamahiriya</option>
+                                    <option value="423">Liechtenstein</option>
+                                    <option value="370">Lithuania</option>
+                                    <option value="352">Luxembourg</option>
+                                    <option value="853">Macao</option>
+                                    <option value="389">Macedonia, The Former Yugoslav Republic Of</option>
+                                    <option value="261">Madagascar</option>
+                                    <option value="265">Malawi</option>
+                                    <option value="60">Malaysia</option>
+                                    <option value="960">Maldives</option>
+                                    <option value="223">Mali</option>
+                                    <option value="356">Malta</option>
+                                    <option value="692">Marshall Islands</option>
+                                    <option value="596">Martinique</option>
+                                    <option value="222">Mauritania</option>
+                                    <option value="230">Mauritius</option>
+                                    <option value="52">Mexico</option>
+                                    <option value="691">Micronesia, Federated States Of</option>
+                                    <option value="373">Moldova, Republic Of</option>
+                                    <option value="377">Monaco</option>
+                                    <option value="976">Mongolia</option>
+                                    <option value="1664">Montserrat</option>
+                                    <option value="212">Morocco</option>
+                                    <option value="258">Mozambique</option>
+                                    <option value="95">Myanmar</option>
+                                    <option value="264">Namibia</option>
+                                    <option value="674">Nauru</option>
+                                    <option value="977">Nepal</option>
+                                    <option value="31">Netherlands</option>
+                                    <option value="599">Netherlands Antilles</option>
+                                    <option value="687">New Caledonia</option>
+                                    <option value="64">New Zealand</option>
+                                    <option value="505">Nicaragua</option>
+                                    <option value="227">Niger</option>
+                                    <option value="234">Nigeria</option>
+                                    <option value="683">Niue</option>
+                                    <option value="1670">Northern Mariana Islands</option>
+                                    <option value="47">Norway</option>
+                                    <option value="968">Oman</option>
+                                    <option value="92">Pakistan</option>
+                                    <option value="680">Palau</option>
+                                    <option value="970">Palestinian Territory, Occupied</option>
+                                    <option value="507">Panama</option>
+                                    <option value="675">Papua New Guinea</option>
+                                    <option value="595">Paraguay</option>
+                                    <option value="51">Peru</option>
+                                    <option value="63">Philippines</option>
+                                    <option value="48">Poland</option>
+                                    <option value="351">Portugal</option>
+                                    <option value="1787">Puerto Rico</option>
+                                    <option value="974">Qatar</option>
+                                    <option value="262">Réunion</option>
+                                    <option value="40">Romania</option>
+                                    <option value="70">Russian Federation</option>
+                                    <option value="290">Saint Helena</option>
+                                    <option value="1869">Saint Kitts And Nevis</option>
+                                    <option value="1758">Saint Lucia</option>
+                                    <option value="508">Saint Pierre And Miquelon</option>
+                                    <option value="1784">Saint Vincent And The Grenadines</option>
+                                    <option value="684">Samoa</option>
+                                    <option value="378">San Marino</option>
+                                    <option value="239">Sao Tome And Principe</option>
+                                    <option value="966">Saudi Arabia</option>
+                                    <option value="221">Senegal</option>
+                                    <option value="248">Seychelles</option>
+                                    <option value="232">Sierra Leone</option>
+                                    <option value="65">Singapore</option>
+                                    <option value="421">Slovakia</option>
+                                    <option value="386">Slovenia</option>
+                                    <option value="677">Solomon Islands</option>
+                                    <option value="27">South Africa</option>
+                                    <option value="34">Spain</option>
+                                    <option value="94">Sri Lanka</option>
+                                    <option value="597">Suriname</option>
+                                    <option value="268">Swaziland</option>
+                                    <option value="46">Sweden</option>
+                                    <option value="41">Switzerland</option>
+                                    <option value="963">Syrian Arab Republic</option>
+                                    <option value="886">Taiwan</option>
+                                    <option value="992">Tajikistan</option>
+                                    <option value="66">Thailand</option>
+                                    <option value="670">Timor-Leste</option>
+                                    <option value="228">Togo</option>
+                                    <option value="690">Tokelau</option>
+                                    <option value="676">Tonga</option>
+                                    <option value="1868">Trinidad And Tobago</option>
+                                    <option value="216">Tunisia</option>
+                                    <option value="90">Turkey</option>
+                                    <option value="7370">Turkmenistan</option>
+                                    <option value="1649">Turks And Caicos Islands</option>
+                                    <option value="688">Tuvalu</option>
+                                    <option value="380">Ukraine</option>
+                                    <option value="971">United Arab Emirates</option>
+                                    <option value="44">United Kingdom</option>
+                                    <option value="598">Uruguay</option>
+                                    <option value="998">Uzbekistan</option>
+                                    <option value="678">Vanuatu</option>
+                                    <option value="58">Venezuela</option>
+                                    <option value="84">Viet Nam</option>
+                                    <option value="1284">Virgin Islands, British</option>
+                                    <option value="1340">Virgin Islands, U.S.</option>
+                                    <option value="681">Wallis And Futuna</option>
+                                    <option value="967">Yemen</option>
+                                    <option value="260">Zambia</option>
+                                    <option value="263">Zimbabwe</option>
+                                    <option value="OTHER">OTHER</option>
+                                </select>
+                                <br><br>
+                                <input type="text" name="other_country" id="other_country" value="" class="validate[required]" maxlength="20" title="Please enter the other country name" style="display:none;">
+                            </div>
+                        </div> 
+                        <div class="cap-lab"><b>Captcha Image - Please verify you're human</b></div>
+                        <div style="width:100%;text-align: center;">
+                        <div class="g-recaptcha" data-sitekey="6Lc401kUAAAAAFG8W1FAgN4wcVKangDK8ZCNrfix">
+                            <div style="width: 304px; height: 78px;">
+                                <div>
+                                    <iframe src="./includes/anchor.html" width="304" height="78" role="presentation" name="a-61k3wo8ab8sw" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                </div>
+                                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div align="right" class="buttion-border">
+                        <input type="submit" id="submitpersonaldetail" value="Save and Continue  ">
+                    </div>
+                    <input type="hidden" id="dataid" name="dataid" value="">
+                </form>
+            </div> <!--right-side end-->
+        </div>
+        <!--Form End-->
+
+
+        <style>
+            #captcha-element{margin-top: -20px !important; text-align:center}
+            #captchimg{text-align: left;}
+            #refreshcaptcha{float: right;
+                            margin-right: 202px;
+                            margin-top:-86px;}
+
+            @media screen and (max-width:1170px){
+
+                #refreshcaptcha{margin-right:130px;}	
+            } 
+
+            @media screen and (max-width:980px){
+                #captcha-element{ text-align:left}	
+                #refreshcaptcha{ margin-right:0px; float:left; margin-left:252px;}	
+            }    
+
+        </style>
+    </div>
+</div>
+</div>
+</div>
+</div>﻿	
+
+</div>
+<!-- Footer Starts-->
+<div id="box_wrap">
+<div class="container">
+    <div id="box_placeholder">
+        <div id="box1" class="col-xs-12 col-sm-6 col-md-3">
+            <div class="moduletable">
+                <h3>News Letter</h3>
+                <div class="custom">
+                    <p style="text-align: none;">
+                        <a target="_blank" href="http://data.axmag.com/data/201412/20141204/U103478_F315002/FLASH/index.html">
+                            <img width="115" height="158" style="margin-right: 5px; float: left;" alt="jan vol1 2015 issue 1" src="./includes/jan_vol1_2015_issue_1.jpg">
+                        </a>
+                        <a target="_blank" href="">Read the current Newsletter online.</a>
+                    </p>
+                    <p style="text-align: none;">
+                        <a target="_blank" href="">Download PDF Version.</a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="">Download the previous issues</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="box2" class="col-xs-12 col-sm-6 col-md-3">	
+            <div class="moduletable">
+                <h3>Subscribe to Newsletter</h3>
+                <div class="custom">
+                    <p>Don't miss any of the interesting happenings in Jomo Kenyatta University of Agriculture & Technology by subscribing to receive our latest Newsletter.</p>
+                </div>
+            </div>
+        </div>
+        <div id="box3" class="col-xs-12 col-sm-6 col-md-3">	
+            <div class="moduletable">
+                <h3>Contact Us</h3>	
+                <div class="custom">
+                    <p>For General Inquiries contact us on:
+                        <strong>Telephone:&nbsp;</strong>
+                        <span style="color: #ffffff;">+254 20 8703000,&nbsp;</span>
+                        <br>
+                        <span>+254 20 8704000,&nbsp;</span>
+                        <br>
+                        <span>+254 20 8710901</span> 
+                        <br>
+                        <strong>Email:&nbsp;
+                            <a href="mailto:registrar-acad@jkuat.ac.ke">registrar-acad@jkuat.ac.ke</a>
+                            <span style="display: none;">This email address is being protected from spambots. You need JavaScript enabled to view it.
+                                <script type="text/javascript"></script>
+                            </span>
+                        </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="box4" class="col-xs-12 col-sm-6 col-md-3">	
+            <div class="moduletable">
+                <h3>Connect With Us</h3>
+                <div class="custom">
+                    <div class="sticky-chat" style="position: inherit;">
+                        <div id="Mod149" class="ja-moduletable moduletable  clearfix">
+                            <h3><span>LIVE CHAT PLATFORM</span></h3>
+                            <div class="ja-box-ct clearfix">
+                                <div class="custom">
+                                    <p style="padding: 0px;">
+                                        <a target="_blank" href="">
+                                            <img width="192" height="104" alt="the chat" src="./includes/the_chat.png">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="mainfooter clearfix">
+        <!-- SPOTLIGHT -->
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-left">
+        	<div id="Mod95" class="ja-moduletable moduletable  clearfix">
+                <h3><span>Quick Links</span></h3>
+                <div class="ja-box-ct clearfix">
+                    <ul class="menu">
+                        <li class="item-470">
+                            <a href="http://www.ku.ac.ke/images/stories/docs/ku_academic_calendar%20_2014-2017.pdf" target="_blank">JKUAT HANDBOOK</a>
+                        </li>
+                        <li class="item-794">
+                            <a href="" target="_blank">JKUAT SCHOOLS</a>
+                        </li>
+                        <li class="item-653">
+                            <a href="" target="_blank">JKUAT DEPARTMENTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-center">
+            <div id="Mod106" class="ja-moduletable moduletable  clearfix">
+                <!-- <h3><span>Online Resources</span></h3> -->
+				<div class="ja-box-ct clearfix"></div>
+            </div>
+        </div>
+        <div style="width: 33%; min-height: 75px;float:left;" class="ja-box column ja-box-right">
+            <div id="Mod107" class="ja-moduletable moduletable  clearfix">
+                <div class="ja-box-ct clearfix"></div>
+            </div>
+        </div>
+        <!-- SPOTLIGHT -->
+    </div>
+</div>
+</div>
+ <!--box wrap end-->
+<div class="copyright-content">
+    <div id="copyright" class="container">
+        <div class="col-xs-12 col-sm-8 col-md-6">
+            <p>Jomo Kenyatta University of Agriculture & Technology...ISO 9001:2008 Certified</p>
+            <p>Copyright &copy; 2015 Jomo Kenyatta University of Agricuture & Technology. All Rights Reserved.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-6 poweredbytxt"><a href="" target="_blank">Valentine </a></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+</div>
+<div id="cboxOverlay" style="display: none;" class=""></div>
+<div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+    <div id="cboxWrapper">
+        <div>
+            <div id="cboxTopLeft" style="float: left;"></div>
+            <div id="cboxTopCenter" style="float: left;"></div>
+            <div id="cboxTopRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxMiddleLeft" style="float: left;"></div>
+            <div id="cboxContent" style="float: left;">
+                <div id="cboxTitle" style="float: left;"></div>
+                <div id="cboxCurrent" style="float: left;"></div>
+                <button type="button" id="cboxPrevious"></button>
+                <button type="button" id="cboxNext"></button>
+                <button id="cboxSlideshow"></button>
+                <div id="cboxLoadingOverlay" style="float: left;"></div>
+                <div id="cboxLoadingGraphic" style="float: left;"></div>
+            </div>
+            <div id="cboxMiddleRight" style="float: left;"></div>
+        </div>
+        <div style="clear: left;">
+            <div id="cboxBottomLeft" style="float: left;"></div>
+            <div id="cboxBottomCenter" style="float: left;"></div>
+            <div id="cboxBottomRight" style="float: left;"></div>
+        </div>
+    </div>
+    <div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div>
+</div>
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible">
+    <div style="display: none;">Please enter the DOB date</div>
+    <div style="display: none;">Please enter the current address</div>
+    <div style="display: none;">Please enter the email</div>
+    <div style="display: none;">Please enter the othername</div>
+    <div style="display: none;">Please enter the surname</div>
+    <div style="display: none;">Optional: Please enter the passport no</div>
+    <div>Please enter the surname</div>
+</div>
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+    <div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div>
+    <div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div>
+    <div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div>
+    <div style="z-index: 2000000000; position: relative;">
+        <iframe title="recaptcha challenge" src="./includes/bframe.html" name="c-61k3wo8ab8sw" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe>
+    </div>
+</div>
+</body>
+</html>
